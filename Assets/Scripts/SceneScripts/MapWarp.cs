@@ -7,12 +7,19 @@ public class MapWarp : MonoBehaviour
 {
     #region Variables
     public GameObject MenuPanel;
+    public GameObject UnderMenuPanel;
+    public GameObject ContactPanel;
+    public GameObject HourPanel;
+    public GameObject ArrivedPanel;
     public GameObject MapPanel;
     public GameObject OptionPanel;
 
     public static bool Warp1;
     public static bool Warp2;
     public static bool Warp3;
+
+    bool CanOpen = true;
+    int CountUnderMenu = 0;
     #endregion
 
     #region Method of Scene Menu
@@ -36,6 +43,57 @@ public class MapWarp : MonoBehaviour
         MenuPanel.SetActive(false);
         OptionPanel.SetActive(true);
     }
+
+    public void GoToContact()
+    {
+        MenuPanel.SetActive(false);
+        ContactPanel.SetActive(true);
+    }
+
+    public void GoToHour()
+    {
+        MenuPanel.SetActive(false);
+        HourPanel.SetActive(true);
+    }
+
+    public void GoToArrived()
+    {
+        MenuPanel.SetActive(false);
+        ArrivedPanel.SetActive(true);
+    }
+    public void GoToUnderMenu()
+    {
+        UnderMenuPanel.SetActive(true);
+    }
+    public void BackUnderMenu()
+    {
+        UnderMenuPanel.SetActive(false);
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     /// <summary>
     /// Scena Menu
     /// Metodo per tornare nel menu disattivando la schermata della mappa - Upgrade mettere tutte le schermate disattivate della scena corrispondente
@@ -54,6 +112,27 @@ public class MapWarp : MonoBehaviour
             if (OptionPanel.activeSelf == true)
             {
                 OptionPanel.SetActive(false);
+            }
+        }
+        if (ContactPanel != null)
+        {
+            if (ContactPanel.activeSelf == true)
+            {
+                ContactPanel.SetActive(false);
+            }
+        }
+        if (HourPanel != null)
+        {
+            if (HourPanel.activeSelf == true)
+            {
+                HourPanel.SetActive(false);
+            }
+        }
+        if (ArrivedPanel != null)
+        {
+            if (ArrivedPanel.activeSelf == true)
+            {
+                ArrivedPanel.SetActive(false);
             }
         }
         MenuPanel.SetActive(true);
