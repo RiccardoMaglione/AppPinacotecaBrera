@@ -99,7 +99,6 @@ public class MapWarp : MonoBehaviour
 
 
 
-
     /// <summary>
     /// Scena Menu
     /// Metodo per tornare nel menu disattivando la schermata della mappa - Upgrade mettere tutte le schermate disattivate della scena corrispondente
@@ -223,4 +222,25 @@ public class MapWarp : MonoBehaviour
     }
 
     #endregion
+
+
+
+    private void Update()
+    {
+        if (ChangeScene.isContact)
+        {
+            GoToContact();
+            ChangeScene.isContact = false;
+        }
+        if (ChangeScene.isHour)
+        {
+            GoToHour();
+            ChangeScene.isHour = false;
+        }
+        if (ChangeScene.isArrived)
+        {
+            GoToArrived();
+            ChangeScene.isArrived = false;
+        }
+    }
 }
