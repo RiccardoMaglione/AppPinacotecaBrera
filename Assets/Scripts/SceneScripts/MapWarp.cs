@@ -13,6 +13,7 @@ public class MapWarp : MonoBehaviour
     public GameObject ArrivedPanel;
     public GameObject MapPanel;
     public GameObject OptionPanel;
+    public GameObject InfoPanel;
 
     public static bool Warp1;
     public static bool Warp2;
@@ -60,6 +61,11 @@ public class MapWarp : MonoBehaviour
     {
         MenuPanel.SetActive(false);
         ArrivedPanel.SetActive(true);
+    }
+    public void GoToInfo()
+    {
+        MenuPanel.SetActive(false);
+        InfoPanel.SetActive(true);
     }
     public void GoToUnderMenu()
     {
@@ -133,6 +139,13 @@ public class MapWarp : MonoBehaviour
             if (ArrivedPanel.activeSelf == true)
             {
                 ArrivedPanel.SetActive(false);
+            }
+        }
+        if (InfoPanel != null)
+        {
+            if (InfoPanel.activeSelf == true)
+            {
+                InfoPanel.SetActive(false);
             }
         }
         MenuPanel.SetActive(true);
