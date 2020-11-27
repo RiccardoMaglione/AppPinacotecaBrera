@@ -1020,6 +1020,7 @@ GameObject:
   - component: {fileID: 938696234}
   - component: {fileID: 938696233}
   - component: {fileID: 938696232}
+  - component: {fileID: 938696235}
   m_Layer: 0
   m_Name: Picture1Button
   m_TagString: Untagged
@@ -1089,7 +1090,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 938696233}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1634612909}
+        m_TargetAssemblyTypeName: MapWarp, Assembly-CSharp
+        m_MethodName: WarpPicture1
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &938696233
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1128,6 +1141,35 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 938696230}
   m_CullTransparentMesh: 0
+--- !u!114 &938696235
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 938696230}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0b148fe25e99eb48b9724523833bab1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Delegates:
+  - eventID: 4
+    callback:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 1634612909}
+          m_TargetAssemblyTypeName: MapWarp, Assembly-CSharp
+          m_MethodName: WarpPicture1
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
 --- !u!1 &971676759
 GameObject:
   m_ObjectHideFlags: 0
@@ -2312,6 +2354,7 @@ GameObject:
   - component: {fileID: 1810449074}
   - component: {fileID: 1810449073}
   - component: {fileID: 1810449072}
+  - component: {fileID: 1810449075}
   m_Layer: 0
   m_Name: Picture2Button
   m_TagString: Untagged
@@ -2381,7 +2424,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1810449073}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1634612909}
+        m_TargetAssemblyTypeName: MapWarp, Assembly-CSharp
+        m_MethodName: WarpPicture2
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1810449073
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2420,6 +2475,35 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1810449070}
   m_CullTransparentMesh: 0
+--- !u!114 &1810449075
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1810449070}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0b148fe25e99eb48b9724523833bab1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Delegates:
+  - eventID: 4
+    callback:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 1634612909}
+          m_TargetAssemblyTypeName: MapWarp, Assembly-CSharp
+          m_MethodName: WarpPicture2
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
 --- !u!1 &1814603548
 GameObject:
   m_ObjectHideFlags: 0
@@ -2432,6 +2516,7 @@ GameObject:
   - component: {fileID: 1814603552}
   - component: {fileID: 1814603551}
   - component: {fileID: 1814603550}
+  - component: {fileID: 1814603553}
   m_Layer: 0
   m_Name: Picture3Button
   m_TagString: Untagged
@@ -2501,7 +2586,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1814603551}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1634612909}
+        m_TargetAssemblyTypeName: MapWarp, Assembly-CSharp
+        m_MethodName: WarpPicture3
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1814603551
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2540,6 +2637,35 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1814603548}
   m_CullTransparentMesh: 0
+--- !u!114 &1814603553
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1814603548}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0b148fe25e99eb48b9724523833bab1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Delegates:
+  - eventID: 4
+    callback:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 1634612909}
+          m_TargetAssemblyTypeName: MapWarp, Assembly-CSharp
+          m_MethodName: WarpPicture3
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
 --- !u!1 &1836430014
 GameObject:
   m_ObjectHideFlags: 0

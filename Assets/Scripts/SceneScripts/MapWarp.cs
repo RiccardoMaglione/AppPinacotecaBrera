@@ -65,15 +65,45 @@ public class MapWarp : MonoBehaviour
     #endregion
 
     #region Method of Scene Gameplay
+    public void GoToMapGameplay()
+    {
+        if(OptionPanel != null)
+        {
+            MenuPanel.SetActive(false);
+        }
+        if (MapPanel != null)
+        {
+            MapPanel.SetActive(true);
+        }
+    }
+
+    public void BackToRoom()
+    {
+        if (MapPanel != null)
+        {
+            if(MapPanel.activeSelf == true)
+            {
+                MapPanel.SetActive(false);
+            }
+        }
+        if (OptionPanel != null)
+        {
+            if (OptionPanel.activeSelf == true)
+            {
+                OptionPanel.SetActive(false);
+            }
+        }
+        Time.timeScale = 1;
+    }
+
     /// <summary>
     /// Scena Gameplay
     /// Metodo per tornare al gioco disattivando la schermata della mappa - Upgrade mettere tutte le schermate disattivate della scena corrispondente
     /// </summary>
-    public void BackToPlay()
+    public void BackToPrincipalScreen()
     {
-        MapPanel.SetActive(false);
-        OptionPanel.SetActive(false);
         Time.timeScale = 1;
+        SceneManager.LoadScene("Menu");
     }
     #endregion
 
