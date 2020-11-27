@@ -18,23 +18,49 @@ public class MapWarp : MonoBehaviour
     #region Method of Scene Menu
     /// <summary>
     /// Scena Menu
-    /// Pulsante che disattiva i pannelli accesi e passa al pannello della mappa, da cui poi si andrà
+    /// Pulsante che disattiva il pannello menù e passa al pannello mappa
     /// alla scena di gioco
     /// </summary>
-    public void Play()
+    public void GoToPlay()
     {
         MenuPanel.SetActive(false);
         MapPanel.SetActive(true);
     }
-
+    /// <summary>
+    /// Scena Menu
+    /// Pulsante che disattiva  il pannello menù e passa al pannello opzioni
+    /// alla scena di gioco
+    /// </summary>
+    public void GoToOption()
+    {
+        MenuPanel.SetActive(false);
+        OptionPanel.SetActive(true);
+    }
     /// <summary>
     /// Scena Menu
     /// Metodo per tornare nel menu disattivando la schermata della mappa - Upgrade mettere tutte le schermate disattivate della scena corrispondente
     /// </summary>
     public void BackToMenu()
     {
-        MapPanel.SetActive(false);
+        if(MapPanel != null)
+        {
+            if(MapPanel.activeSelf == true)
+            {
+                MapPanel.SetActive(false);
+            }
+        }
+        if (OptionPanel != null)
+        {
+            if (OptionPanel.activeSelf == true)
+            {
+                OptionPanel.SetActive(false);
+            }
+        }
         MenuPanel.SetActive(true);
+    }
+    public void Exit()
+    {
+        Application.Quit();
     }
     #endregion
 
