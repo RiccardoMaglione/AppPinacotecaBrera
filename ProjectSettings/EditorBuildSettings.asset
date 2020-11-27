@@ -9,6 +9,6 @@ EditorBuildSettings:
     path: Assets/Scenes/Def Scene/Menu.unity
     guid: dcea1f9c1c1e4ee42b3e40d56a159fa2
   - enabled: 1
-    path: Assets/Scenes/Test Scenes/BlockOut.unity
+    path: Assets/Scenes/Def Scene/BlockOut.unity
     guid: c850e86f346575441a33974a06a4b109
   m_configObjects: {}

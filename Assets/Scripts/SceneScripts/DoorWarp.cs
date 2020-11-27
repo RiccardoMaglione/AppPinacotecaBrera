@@ -4,7 +4,8 @@ using UnityEngine;
 
 public class DoorWarp : MonoBehaviour
 {
-    public GameObject Player1;
+    public GameObject[] PlayerArray;
+
     RaycastHit hit;
     Ray ray;
 
@@ -25,7 +26,27 @@ public class DoorWarp : MonoBehaviour
             {
                 if (hit.collider.name == "Door1")
                 {
-                    print("Ecco la porta numero 1");
+                    for (int i = 0; i < PlayerArray.Length; i++)
+                    {
+                        PlayerArray[i].SetActive(false);
+                    }
+                    PlayerArray[0].SetActive(true);
+                }
+                if (hit.collider.name == "Door2")
+                {
+                    for (int i = 0; i < PlayerArray.Length; i++)
+                    {
+                        PlayerArray[i].SetActive(false);
+                    }
+                    PlayerArray[1].SetActive(true);
+                }
+                if (hit.collider.name == "Door3")
+                {
+                    for (int i = 0; i < PlayerArray.Length; i++)
+                    {
+                        PlayerArray[i].SetActive(false);
+                    }
+                    PlayerArray[2].SetActive(true);
                 }
             }
         }
