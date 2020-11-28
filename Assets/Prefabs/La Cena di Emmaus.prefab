@@ -820,8 +820,8 @@ Transform:
   m_Children:
   - {fileID: 3319785818336790462}
   - {fileID: 3319785818097383750}
-  - {fileID: 3319785818387088646}
   - {fileID: 3319785818078072104}
+  - {fileID: 3319785818387088646}
   - {fileID: 3319785818173959282}
   m_Father: {fileID: 0}
   m_RootOrder: 0
@@ -14214,7 +14214,7 @@ GameObject:
   - component: {fileID: 3319785817267221682}
   m_Layer: 0
   m_Name: Camera2-3
-  m_TagString: Untagged
+  m_TagString: MainCamera
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -18099,8 +18099,8 @@ GameObject:
   - component: {fileID: 3319785817359899678}
   - component: {fileID: 3319785817359899673}
   m_Layer: 0
-  m_Name: Camera2-1
-  m_TagString: Untagged
+  m_Name: Camera2-2
+  m_TagString: MainCamera
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -19141,8 +19141,8 @@ GameObject:
   - component: {fileID: 3319785817440710664}
   - component: {fileID: 3319785817440710667}
   m_Layer: 0
-  m_Name: Camera2-2
-  m_TagString: Untagged
+  m_Name: Camera2-1
+  m_TagString: MainCamera
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -35779,7 +35779,7 @@ GameObject:
   - component: {fileID: 3319785818078072105}
   - component: {fileID: 3319785818078072108}
   m_Layer: 0
-  m_Name: PlayerSpot2-2
+  m_Name: PlayerSpot2-1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -35798,7 +35798,7 @@ Transform:
   m_Children:
   - {fileID: 3319785817440710666}
   m_Father: {fileID: 3319785816798405900}
-  m_RootOrder: 3
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!33 &3319785818078072111
 MeshFilter:
@@ -39700,7 +39700,7 @@ GameObject:
   - component: {fileID: 3319785818387088647}
   - component: {fileID: 3319785818387088666}
   m_Layer: 0
-  m_Name: PlayerSpot2-1
+  m_Name: PlayerSpot2-2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -39719,7 +39719,7 @@ Transform:
   m_Children:
   - {fileID: 3319785817359899672}
   m_Father: {fileID: 3319785816798405900}
-  m_RootOrder: 2
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!33 &3319785818387088645
 MeshFilter:
