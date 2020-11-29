@@ -5,6 +5,7 @@ using UnityEngine;
 public class DoorWarp : MonoBehaviour
 {
     public GameObject[] PlayerArray;
+    public GameObject Marriage;
 
     RaycastHit hit;
     Ray ray;
@@ -53,6 +54,11 @@ public class DoorWarp : MonoBehaviour
                         PlayerArray[i].SetActive(false);
                     }
                     PlayerArray[2].SetActive(true);
+                }
+                if (hit.collider.name == "SPOSALIZIO")
+                {
+                    Marriage.SetActive(true);
+                
                 }
             }
         }
