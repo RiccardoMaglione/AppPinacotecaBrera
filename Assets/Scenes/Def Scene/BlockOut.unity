@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.44657874, g: 0.49641258, b: 0.5748172, a: 1}
+  m_IndirectSpecularColor: {r: 0.445486, g: 0.49515623, b: 0.5740788, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -23169,6 +23169,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Il Bacio
       objectReference: {fileID: 0}
+    - target: {fileID: 1947771447738098552, guid: 4d4b3966444f73c48a326bd0cd02a776, type: 3}
+      propertyPath: field of view
+      value: 120
+      objectReference: {fileID: 0}
     - target: {fileID: 1947771447738098555, guid: 4d4b3966444f73c48a326bd0cd02a776, type: 3}
       propertyPath: m_TagString
       value: MainCamera
@@ -23532,6 +23536,10 @@ PrefabInstance:
       propertyPath: m_Mesh
       value: 
       objectReference: {fileID: 721173367}
+    - target: {fileID: 3319785817267221683, guid: a94da58adfcf2834a8a4329a43a1bd40, type: 3}
+      propertyPath: field of view
+      value: 120
+      objectReference: {fileID: 0}
     - target: {fileID: 3319785817267221692, guid: a94da58adfcf2834a8a4329a43a1bd40, type: 3}
       propertyPath: m_TagString
       value: MainCamera
@@ -23575,6 +23583,14 @@ PrefabInstance:
     - target: {fileID: 3319785817359899675, guid: a94da58adfcf2834a8a4329a43a1bd40, type: 3}
       propertyPath: m_TagString
       value: MainCamera
+      objectReference: {fileID: 0}
+    - target: {fileID: 3319785817359899678, guid: a94da58adfcf2834a8a4329a43a1bd40, type: 3}
+      propertyPath: field of view
+      value: 120
+      objectReference: {fileID: 0}
+    - target: {fileID: 3319785817440710664, guid: a94da58adfcf2834a8a4329a43a1bd40, type: 3}
+      propertyPath: field of view
+      value: 120
       objectReference: {fileID: 0}
     - target: {fileID: 3319785817440710709, guid: a94da58adfcf2834a8a4329a43a1bd40, type: 3}
       propertyPath: m_TagString
@@ -24118,6 +24134,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 4623408311409846375, guid: 3b5a4ca31a85689428e8d9784204345c, type: 3}
+      propertyPath: field of view
+      value: 120
+      objectReference: {fileID: 0}
     - target: {fileID: 4623408311409846376, guid: 3b5a4ca31a85689428e8d9784204345c, type: 3}
       propertyPath: m_TagString
       value: MainCamera
