@@ -4,17 +4,15 @@ using UnityEngine;
 
 public class BaseRotation : MonoBehaviour
 {
-    public float MaxAngle = 80;
-    public float MinAngle = -80;
     public void RotateUpDown(float axis)
     {
         transform.RotateAround(transform.position, transform.right, -axis * Time.deltaTime);
         #region LimitRange on X
         // get relative range +/-
-        float relRange = (MaxAngle - -MinAngle) / 2f;
+        float relRange = (80 - -80) / 2f;
 
         // calculate offset
-        float offset = MaxAngle - relRange;
+        float offset = 80 - relRange;
 
         // convert to a relative value
         Vector3 angles = transform.eulerAngles;

@@ -9,11 +9,17 @@ public class DoorWarp : MonoBehaviour
     RaycastHit hit;
     Ray ray;
 
+    bool CanWarp = true;
+
     void Update()
     {
-        if(Input.GetMouseButtonDown(0) || Input.touchCount == 1)
+        if((Input.GetMouseButtonDown(0) || Input.touchCount == 1) && CanWarp == true)
         {
             WarpDoor();
+        }
+        else if ((Input.GetMouseButtonUp(0) || Input.touchCount == 0) && CanWarp == false)
+        {
+            CanWarp = true;
         }
     }
 
@@ -50,5 +56,6 @@ public class DoorWarp : MonoBehaviour
                 }
             }
         }
+        CanWarp = false;
     }
 }
