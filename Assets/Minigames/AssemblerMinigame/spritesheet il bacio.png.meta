@@ -32,6 +32,39 @@ TextureImporter:
   - first:
       213: -6222125080480227644
     second: spritesheet il bacio_9
+  - first:
+      213: -5618514288076581080
+    second: spritesheet il bacio_10
+  - first:
+      213: -4416018864050047531
+    second: spritesheet il bacio_0
+  - first:
+      213: -2564053215526714697
+    second: spritesheet il bacio_1
+  - first:
+      213: -2457570983718178785
+    second: spritesheet il bacio_2
+  - first:
+      213: -8920108983216344958
+    second: spritesheet il bacio_3
+  - first:
+      213: 4295110664223269427
+    second: spritesheet il bacio_4
+  - first:
+      213: -2517047898542055376
+    second: spritesheet il bacio_5
+  - first:
+      213: -5113505733139485929
+    second: spritesheet il bacio_6
+  - first:
+      213: -4546318107330335382
+    second: spritesheet il bacio_7
+  - first:
+      213: 5572463028866944482
+    second: spritesheet il bacio_8
+  - first:
+      213: 4424023127581337573
+    second: spritesheet il bacio_9
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -146,19 +179,19 @@ TextureImporter:
       name: spritesheet il bacio_0
       rect:
         serializedVersion: 2
-        x: 42
-        y: 5087
-        width: 2078
-        height: 1570
+        x: 20
+        y: 8316
+        width: 2100
+        height: 1571
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f7aa33b73da571d70800000000000000
-      internalID: 9013773043556919935
+      spriteID: 5d57fde7d3627b2c0800000000000000
+      internalID: -4416018864050047531
       vertices: []
       indices: 
       edges: []
@@ -167,19 +200,19 @@ TextureImporter:
       name: spritesheet il bacio_1
       rect:
         serializedVersion: 2
-        x: 0
-        y: 2794
-        width: 1119
-        height: 2118
+        x: 4458
+        y: 8653
+        width: 1628
+        height: 1120
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d0642b374eda74990800000000000000
-      internalID: -7401756265854908915
+      spriteID: 7b205577f27aa6cd0800000000000000
+      internalID: -2564053215526714697
       vertices: []
       indices: 
       edges: []
@@ -188,19 +221,19 @@ TextureImporter:
       name: spritesheet il bacio_2
       rect:
         serializedVersion: 2
-        x: 2349
-        y: 5509
-        width: 1630
-        height: 1138
+        x: 8503
+        y: 7739
+        width: 809
+        height: 2019
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b3ad4f0f849b465b0800000000000000
-      internalID: -5375968332242167237
+      spriteID: f10bb290634f4edd0800000000000000
+      internalID: -2457570983718178785
       vertices: []
       indices: 
       edges: []
@@ -209,19 +242,19 @@ TextureImporter:
       name: spritesheet il bacio_3
       rect:
         serializedVersion: 2
-        x: 4530
-        y: 4645
-        width: 866
-        height: 2001
+        x: 55
+        y: 4454
+        width: 1123
+        height: 2112
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 22a15741a85eaf580800000000000000
-      internalID: -8792462941276005854
+      spriteID: 2807e99f328653480800000000000000
+      internalID: -8920108983216344958
       vertices: []
       indices: 
       edges: []
@@ -230,19 +263,19 @@ TextureImporter:
       name: spritesheet il bacio_4
       rect:
         serializedVersion: 2
-        x: 1541
-        y: 1595
-        width: 1537
-        height: 2006
+        x: 3318
+        y: 4115
+        width: 1535
+        height: 1997
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 77db14bf1d5f59300800000000000000
-      internalID: 258382835856031095
+      spriteID: 3322504846c4b9b30800000000000000
+      internalID: 4295110664223269427
       vertices: []
       indices: 
       edges: []
@@ -251,19 +284,19 @@ TextureImporter:
       name: spritesheet il bacio_5
       rect:
         serializedVersion: 2
-        x: 2185
-        y: 3372
-        width: 2396
-        height: 1369
+        x: 6709
+        y: 4672
+        width: 2381
+        height: 1377
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 62436c0895466f530800000000000000
-      internalID: 3888405663856342054
+      spriteID: 030e1cca546a11dd0800000000000000
+      internalID: -2517047898542055376
       vertices: []
       indices: 
       edges: []
@@ -272,19 +305,19 @@ TextureImporter:
       name: spritesheet il bacio_6
       rect:
         serializedVersion: 2
-        x: 3918
-        y: 1703
-        width: 1333
-        height: 1541
+        x: 0
+        y: 34
+        width: 1513
+        height: 1677
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7a39e3ab9d8e7a590800000000000000
-      internalID: -7662900219117399129
+      spriteID: 71b2c43d0ad2909b0800000000000000
+      internalID: -5113505733139485929
       vertices: []
       indices: 
       edges: []
@@ -293,19 +326,19 @@ TextureImporter:
       name: spritesheet il bacio_7
       rect:
         serializedVersion: 2
-        x: 3974
-        y: 78
-        width: 1238
-        height: 1121
+        x: 3717
+        y: 186
+        width: 2448
+        height: 1012
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 00ed83cbce2530440800000000000000
-      internalID: 4900851996232834560
+      spriteID: a6d26a0d4cb38e0c0800000000000000
+      internalID: -4546318107330335382
       vertices: []
       indices: 
       edges: []
@@ -314,19 +347,19 @@ TextureImporter:
       name: spritesheet il bacio_8
       rect:
         serializedVersion: 2
-        x: 1051
-        y: 0
-        width: 2436
-        height: 995
+        x: 8974
+        y: 1476
+        width: 1328
+        height: 1544
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5ec4dd972132a1ed0800000000000000
-      internalID: -2442601285634143003
+      spriteID: 2ed8c9fb99d555d40800000000000000
+      internalID: 5572463028866944482
       vertices: []
       indices: 
       edges: []
@@ -335,10 +368,10 @@ TextureImporter:
       name: spritesheet il bacio_9
       rect:
         serializedVersion: 2
-        x: 42
-        y: 136
-        width: 1510
-        height: 1648
+        x: 13014
+        y: 0
+        width: 1233
+        height: 1113
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -346,8 +379,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4ce5ded943296a9a0800000000000000
-      internalID: -6222125080480227644
+      spriteID: 5e729955899456d30800000000000000
+      internalID: 4424023127581337573
       vertices: []
       indices: 
       edges: []
