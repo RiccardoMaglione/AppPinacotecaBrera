@@ -20,9 +20,9 @@ namespace Brera.Minigames.AssemblerPuzzle
 
             //Debug.LogError("VERO");
         }
-        public void OnMouseDrag()
-        {
 
+        private void OnMouseUp()
+        {
             if (_canSnap)
             {
                 System.Threading.Thread.Sleep(500);
@@ -30,7 +30,7 @@ namespace Brera.Minigames.AssemblerPuzzle
 
                 //Debug.LogError($"direction : {(_lastPos - _prevPos).normalized}");
 
-                if (_prevPos.x < _lastPos.x || _prevPos.y < _lastPos.y)
+                if (_prevPos.x < _lastPos.x/* || _prevPos.y < _lastPos.y*/)
                 {
                     RotateObject(-45);
                     //Debug.LogWarning("LEFT");
@@ -46,7 +46,6 @@ namespace Brera.Minigames.AssemblerPuzzle
                 }
             }
         }
-
         private void Update()
         {
             //if (Input.GetMouseButtonDown(0)) RotateObject(45);
