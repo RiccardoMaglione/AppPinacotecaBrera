@@ -1,10 +1,12 @@
 ﻿using UnityEngine;
+using UnityEngine.SceneManagement;
 namespace Brera.Minigames.AssemblerPuzzle
 {
     public sealed class RingMinigame : MonoBehaviour
     {
         public GameObject[] _pieces;
         Quaternion[] rotations;
+        
 
         private void Start()
         {
@@ -20,18 +22,26 @@ namespace Brera.Minigames.AssemblerPuzzle
             foreach(var item in _pieces)
             {
                 item.transform.rotation = rots[Random.Range(0, rots.Length)];
+                
             }
 
 
         }
-        private void Update()
+        void Update()
         {
-           
-            //_pieces[0].GetComponent<SpriteRenderer>().color = _pieces[0].transform.rotation == Quaternion.Euler(0,0,0) || _pieces[0].transform.rotation == Quaternion.Euler(0,0,360) ? _pieces[0].GetComponent<SpriteRenderer>().color = Color.green : _pieces[0].GetComponent<SpriteRenderer>().color = Color.red;
-            //_pieces[1].GetComponent<SpriteRenderer>().color = _pieces[1].transform.rotation == Quaternion.Euler(0,0,0) || _pieces[1].transform.rotation == Quaternion.Euler(0,0,360) ? _pieces[1].GetComponent<SpriteRenderer>().color = Color.green : _pieces[1].GetComponent<SpriteRenderer>().color = Color.red;
-            //_pieces[2].GetComponent<SpriteRenderer>().color = _pieces[2].transform.rotation == Quaternion.Euler(0,0,0) || _pieces[2].transform.rotation == Quaternion.Euler(0,0,360) ? _pieces[2].GetComponent<SpriteRenderer>().color = Color.green : _pieces[2].GetComponent<SpriteRenderer>().color = Color.red;
-            //_pieces[3].GetComponent<SpriteRenderer>().color = _pieces[3].transform.rotation == Quaternion.Euler(0,0,0) || _pieces[3].transform.rotation == Quaternion.Euler(0,0,360) ? _pieces[3].GetComponent<SpriteRenderer>().color = Color.green : _pieces[3].GetComponent<SpriteRenderer>().color = Color.red;
-            //_pieces[4].GetComponent<SpriteRenderer>().color = _pieces[4].transform.rotation == Quaternion.Euler(0,0,0) || _pieces[4].transform.rotation == Quaternion.Euler(0,0,360) ? _pieces[4].GetComponent<SpriteRenderer>().color = Color.green : _pieces[4].GetComponent<SpriteRenderer>().color = Color.red;
+
+            if
+            (
+           (_pieces[0].transform.rotation == Quaternion.Euler(0, 0, 0) || _pieces[0].transform.rotation == Quaternion.Euler(0, 0, 360))&&
+           (_pieces[1].transform.rotation == Quaternion.Euler(0, 0, 0) || _pieces[1].transform.rotation == Quaternion.Euler(0, 0, 360))&&
+           (_pieces[2].transform.rotation == Quaternion.Euler(0, 0, 0) || _pieces[2].transform.rotation == Quaternion.Euler(0, 0, 360))&&
+           (_pieces[3].transform.rotation == Quaternion.Euler(0, 0, 0) || _pieces[3].transform.rotation == Quaternion.Euler(0, 0, 360))&&
+           (_pieces[4].transform.rotation == Quaternion.Euler(0, 0, 0) || _pieces[4].transform.rotation == Quaternion.Euler(0, 0, 360))
+            )
+            {
+                MapWarp.instance.WarpPicture1();
+            }
+
         }
     }
 }

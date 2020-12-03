@@ -14,6 +14,7 @@ public class MapWarp : MonoBehaviour
     public GameObject MapPanel;
     public GameObject OptionPanel;
     public GameObject InfoPanel;
+    public static MapWarp instance;
 
     public static bool Warp1;
     public static bool Warp2;
@@ -223,7 +224,13 @@ public class MapWarp : MonoBehaviour
 
     #endregion
 
-
+    void Awake()
+    {
+        if(instance== null)
+        {
+            instance = this;
+        }
+    }
 
     private void Update()
     {

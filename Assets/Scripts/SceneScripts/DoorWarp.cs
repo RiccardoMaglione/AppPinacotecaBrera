@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class DoorWarp : MonoBehaviour
 {
@@ -57,7 +58,8 @@ public class DoorWarp : MonoBehaviour
                 }
                 if (hit.collider.name == "SPOSALIZIO")
                 {
-                    Marriage.SetActive(true);
+                    //Marriage.SetActive(true);
+                    SceneManager.LoadScene("RingMinigameTest");
                 
                 }
             }

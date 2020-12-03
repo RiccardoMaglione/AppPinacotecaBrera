@@ -11,4 +11,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Def Scene/BlockOut.unity
     guid: c850e86f346575441a33974a06a4b109
+  - enabled: 1
+    path: Assets/Minigames/RingMinigame/Scenes/RingMinigameTest.unity
+    guid: 005ce41eb52bea647b8e9fa5ece840af
   m_configObjects: {}
