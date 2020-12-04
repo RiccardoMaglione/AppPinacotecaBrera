@@ -1,4 +1,5 @@
-﻿using UnityEngine;
+﻿using System.Collections;
+using UnityEngine;
 namespace Brera.Minigames.AssemblerPuzzle
 {
     public sealed class AssemblerMinigame : MonoBehaviour
@@ -33,10 +34,15 @@ namespace Brera.Minigames.AssemblerPuzzle
                 _slots[8].Filled &&
                 _slots[9].Filled)
             {
-                
-                MapWarp.instance.WarpPicture3();
+
+                StartCoroutine(Stanza3());
             }
 
+        }
+        IEnumerator Stanza3()
+        {
+            yield return new WaitForSeconds(2);
+            MapWarp.instance.WarpPicture3();
         }
         #endregion
     }
