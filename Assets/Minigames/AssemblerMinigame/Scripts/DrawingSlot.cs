@@ -5,6 +5,8 @@ namespace Brera.Minigames.AssemblerPuzzle
     public sealed class DrawingSlot : MonoBehaviour
     {
         [SerializeField] int id;
+        public bool Filled;
+
         #region UnityCallbacks
         private void OnTriggerEnter2D(Collider2D collision)
         {
@@ -16,8 +18,10 @@ namespace Brera.Minigames.AssemblerPuzzle
                     drawing.DisableMovement();
                     drawing.DisablePhysic();
                     drawing.gameObject.transform.DOMove(gameObject.transform.position, 0.25f);
-                    drawing.gameObject.transform.DOScale(gameObject.transform.localScale, 0.5f);
+                    drawing.gameObject.transform.DOScale(gameObject.transform.localScale, 0.5f);                   
+                    Filled = true;
                 }
+
             }
         }
         #endregion

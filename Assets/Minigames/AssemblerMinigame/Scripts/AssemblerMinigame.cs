@@ -19,6 +19,25 @@ namespace Brera.Minigames.AssemblerPuzzle
             //    _drawings[i].SetID(i);
             //}
         }
+
+        private void Update()
+        {
+            if(_slots[0].Filled  && 
+                _slots[1].Filled &&
+                _slots[2].Filled &&
+                _slots[3].Filled &&
+                _slots[4].Filled &&
+                _slots[5].Filled &&
+                _slots[6].Filled &&
+                _slots[7].Filled &&
+                _slots[8].Filled &&
+                _slots[9].Filled)
+            {
+                
+                MapWarp.instance.WarpPicture3();
+            }
+
+        }
         #endregion
     }
 }

@@ -62,6 +62,12 @@ public class DoorWarp : MonoBehaviour
                     SceneManager.LoadScene("RingMinigameTest");
                 
                 }
+                if (hit.collider.name == "Il Bacio")
+                {
+                    //Marriage.SetActive(true);
+                    SceneManager.LoadScene("DEMO");
+
+                }
             }
         }
         CanWarp = false;

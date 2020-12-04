@@ -23936,6 +23936,10 @@ PrefabInstance:
       propertyPath: m_Mesh
       value: 
       objectReference: {fileID: 543896468}
+    - target: {fileID: 1947771447080704578, guid: 4d4b3966444f73c48a326bd0cd02a776, type: 3}
+      propertyPath: m_Name
+      value: Il Bacio
+      objectReference: {fileID: 0}
     - target: {fileID: 1947771447274240081, guid: 4d4b3966444f73c48a326bd0cd02a776, type: 3}
       propertyPath: m_Mesh
       value: 
