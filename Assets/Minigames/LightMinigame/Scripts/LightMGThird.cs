@@ -29,9 +29,28 @@ public class LightMGThird : MonoBehaviour
     }
     public void ButtonThree()
     {
+        if (PiecesImages[0].activeInHierarchy)
+            PiecesImages[0].SetActive(false);
+        else
+            PiecesImages[0].SetActive(true);
+        if (PiecesImages[1].activeInHierarchy)
+            PiecesImages[1].SetActive(false);
+        else
+            PiecesImages[1].SetActive(true);
+        if (PiecesImages[3].activeInHierarchy)
+            PiecesImages[3].SetActive(false);
+        else
+            PiecesImages[3].SetActive(true);
+    }
+    public void ButtonFour()
+    {
         if (PiecesImages[2].activeInHierarchy)
             PiecesImages[2].SetActive(false);
         else
             PiecesImages[2].SetActive(true);
+        if (PiecesImages[3].activeInHierarchy)
+            PiecesImages[3].SetActive(false);
+        else
+            PiecesImages[3].SetActive(true);
     }
 }
