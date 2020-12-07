@@ -5,6 +5,14 @@ using UnityEngine;
 public class LightMGThird : MonoBehaviour
 {
     public GameObject[] PiecesImages;
+
+    private void Update()
+    {
+        if(PiecesImages[0].activeInHierarchy && PiecesImages[1].activeInHierarchy && PiecesImages[2].activeInHierarchy && PiecesImages[3].activeInHierarchy)
+        {
+            UIManager.instance.WarpPicture2();
+        }
+    }
     public void ButtonOne()
     {
         if (PiecesImages[1].activeInHierarchy)

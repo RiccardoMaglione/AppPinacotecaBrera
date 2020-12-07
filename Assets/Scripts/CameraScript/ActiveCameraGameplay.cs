@@ -5,35 +5,82 @@ using UnityEngine;
 public class ActiveCameraGameplay : MonoBehaviour
 {
     public GameObject[] PlayerSpot;
+    public GameObject MapPanel;
+    public static bool Warp1Active;
+    public static bool Warp2Active;
+    public static bool Warp3Active;
 
     void Update()
     {
-        if(MapWarp.Warp1 == true)
+        if(UIManager.Warp1 == true || Warp1Active == true)
         {
-            MapWarp.Warp1 = false;
+            UIManager.Warp1 = false;
+            Warp1Active = false;
             for (int i = 0; i < PlayerSpot.Length; i++)
             {
                 PlayerSpot[i].SetActive(false);
             }
             PlayerSpot[0].SetActive(true);
         }
-        if (MapWarp.Warp2 == true)
+        if (UIManager.Warp2 == true|| Warp2Active == true)
         {
-            MapWarp.Warp2 = false;
+            UIManager.Warp2 = false;
+            Warp2Active = false;
             for (int i = 0; i < PlayerSpot.Length; i++)
             {
                 PlayerSpot[i].SetActive(false);
             }
             PlayerSpot[1].SetActive(true);
         }
-        if (MapWarp.Warp3 == true)
+        if (UIManager.Warp3 == true || Warp3Active == true)
         {
-            MapWarp.Warp3 = false;
+            UIManager.Warp3 = false;
+            Warp3Active = false;
             for (int i = 0; i < PlayerSpot.Length; i++)
             {
                 PlayerSpot[i].SetActive(false);
             }
             PlayerSpot[2].SetActive(true);
+        }
+    }
+
+    public void WarpPicture1()
+    {
+        Warp2Active = false;
+        Warp3Active = false;
+        Warp1Active = true;
+        if (MapPanel != null)
+        {
+            if (MapPanel.activeSelf == true)
+            {
+                MapPanel.SetActive(false);
+            }
+        }
+    }
+    public void WarpPicture2()
+    {
+        Warp1Active = false;
+        Warp3Active = false;
+        Warp2Active = true;
+        if (MapPanel != null)
+        {
+            if (MapPanel.activeSelf == true)
+            {
+                MapPanel.SetActive(false);
+            }
+        }
+    }
+    public void WarpPicture3()
+    {
+        Warp1Active = false;
+        Warp2Active = false;
+        Warp3Active = true;
+        if (MapPanel != null)
+        {
+            if (MapPanel.activeSelf == true)
+            {
+                MapPanel.SetActive(false);
+            }
         }
     }
 }

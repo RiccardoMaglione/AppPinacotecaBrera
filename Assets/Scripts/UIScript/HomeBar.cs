@@ -19,10 +19,14 @@ public class HomeBar : MonoBehaviour
     void Start()
     {
         Home.transform.position = new Vector3(-(EndValueActivate.transform.position.x * 425), Home.transform.position.y, Home.transform.position.z);
-        InfoButtonLeft.SetActive(false);
-        LineLeftBlackDown.SetActive(false);
-        InfoButtonRight.SetActive(true);
-        LineRightBlackDown.SetActive(true);
+        if(InfoButtonLeft != null)
+            InfoButtonLeft.SetActive(false);
+        if (LineLeftBlackDown != null)
+            LineLeftBlackDown.SetActive(false);
+        if (InfoButtonRight != null)
+            InfoButtonRight.SetActive(true);
+        if (LineRightBlackDown != null)
+            LineRightBlackDown.SetActive(true);
     }
 
 
@@ -54,17 +58,25 @@ public class HomeBar : MonoBehaviour
     IEnumerator ActiveThings()
     {
         yield return new WaitForSeconds(TranslateTimeActivate);
-        InfoButtonLeft.SetActive(true);
-        LineLeftBlackDown.SetActive(true);
-        InfoButtonRight.SetActive(false);
-        LineRightBlackDown.SetActive(false);
+        if(InfoButtonLeft != null)
+            InfoButtonLeft.SetActive(true);
+        if (LineLeftBlackDown != null)
+            LineLeftBlackDown.SetActive(true);
+        if (InfoButtonRight != null)
+            InfoButtonRight.SetActive(false);
+        if (LineRightBlackDown != null)
+            LineRightBlackDown.SetActive(false);
     }
     IEnumerator DeactiveThings()
     {
         yield return new WaitForSeconds(TranslateTimeActivate);
-        InfoButtonLeft.SetActive(false);
-        LineLeftBlackDown.SetActive(false);
-        InfoButtonRight.SetActive(true);
-        LineRightBlackDown.SetActive(true);
+        if(InfoButtonLeft != null)
+            InfoButtonLeft.SetActive(false);
+        if (LineLeftBlackDown != null)
+            LineLeftBlackDown.SetActive(false);
+        if (InfoButtonRight != null)
+            InfoButtonRight.SetActive(true);
+        if (LineRightBlackDown != null)
+            LineRightBlackDown.SetActive(true);
     }
 }

@@ -42,7 +42,7 @@ namespace Brera.Minigames.AssemblerPuzzle
         IEnumerator Stanza3()
         {
             yield return new WaitForSeconds(2);
-            MapWarp.instance.WarpPicture3();
+            UIManager.instance.WarpPicture3();
         }
         #endregion
     }

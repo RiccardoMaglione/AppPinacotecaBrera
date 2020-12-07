@@ -58,15 +58,15 @@ public class DoorWarp : MonoBehaviour
                 }
                 if (hit.collider.name == "SPOSALIZIO")
                 {
-                    //Marriage.SetActive(true);
                     SceneManager.LoadScene("RingMinigameTest");
-                
                 }
                 if (hit.collider.name == "Il Bacio")
                 {
-                    //Marriage.SetActive(true);
                     SceneManager.LoadScene("DEMO");
-
+                }
+                if (hit.collider.name == "La CENA")
+                {
+                    SceneManager.LoadScene("LightMGScene");
                 }
             }
         }

@@ -39,7 +39,7 @@ namespace Brera.Minigames.AssemblerPuzzle
            (_pieces[4].transform.rotation == Quaternion.Euler(0, 0, 0) || _pieces[4].transform.rotation == Quaternion.Euler(0, 0, 360))
             )
             {
-                MapWarp.instance.WarpPicture1();
+                UIManager.instance.WarpPicture1();
             }
 
         }
