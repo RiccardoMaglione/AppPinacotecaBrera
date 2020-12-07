@@ -17,4 +17,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Minigames/AssemblerMinigame/scenes/DEMO.unity
     guid: b57fc7abaca4db14197b940bd5ddeb56
+  - enabled: 1
+    path: Assets/Minigames/LightMinigame/Scenes/LightMGScene.unity
+    guid: f306c1ac074c978449009a6d754cbb54
   m_configObjects: {}

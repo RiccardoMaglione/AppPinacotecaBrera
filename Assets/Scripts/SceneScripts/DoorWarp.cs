@@ -64,7 +64,7 @@ public class DoorWarp : MonoBehaviour
                 {
                     SceneManager.LoadScene("DEMO");
                 }
-                if (hit.collider.name == "La CENA")
+                if (hit.collider.name == "Cube (17)")
                 {
                     SceneManager.LoadScene("LightMGScene");
                 }
