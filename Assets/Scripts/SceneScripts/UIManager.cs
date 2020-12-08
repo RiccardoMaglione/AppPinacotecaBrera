@@ -1,6 +1,4 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 using UnityEngine.SceneManagement;
 
 public class UIManager : MonoBehaviour
@@ -12,11 +10,17 @@ public class UIManager : MonoBehaviour
     public GameObject StatsPanel;
     public GameObject MapPanel;
 
+    public GameObject RingsFullscreenPanel;
+    public GameObject CompletedRingMinigamePanel;
+
+
     public static UIManager instance;
 
     public static bool Warp1;
     public static bool Warp2;
     public static bool Warp3;
+
+    
     #endregion
 
     void Awake()
@@ -26,6 +30,8 @@ public class UIManager : MonoBehaviour
             instance = this;
         }
     }
+
+
     public void GoToPlay()
     {
         MenuPanel.SetActive(false);
@@ -101,5 +107,16 @@ public class UIManager : MonoBehaviour
         Warp2 = false;
         Warp3 = true;
         SceneManager.LoadScene("BlockOut");
+    }
+
+    public void GoToCompletedRingsPanel()
+    {
+        RingsFullscreenPanel.SetActive(false);
+        CompletedRingMinigamePanel.SetActive(true);
+    }
+    public void GoToFullscreenRingsPanel()
+    {
+        RingsFullscreenPanel.SetActive(true);
+        CompletedRingMinigamePanel.SetActive(false);
     }
 }
