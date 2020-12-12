@@ -35,14 +35,14 @@ namespace Brera.Minigames.AssemblerPuzzle
                 _slots[9].Filled)
             {
 
-                StartCoroutine(Stanza3());
+                StartCoroutine(Stanza3());         
             }
 
         }
         IEnumerator Stanza3()
         {
-            yield return new WaitForSeconds(2);
-            UIManager.instance.WarpPicture3();
+            yield return new WaitForSeconds(1);
+            UIManager.instance.GoToCompletedKissPanel();
         }
         #endregion
     }

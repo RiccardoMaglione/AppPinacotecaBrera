@@ -10,8 +10,11 @@ public class UIManager : MonoBehaviour
     public GameObject StatsPanel;
     public GameObject MapPanel;
 
-    public GameObject RingsFullscreenPanel;
-    public GameObject CompletedRingMinigamePanel;
+    public GameObject ringsFullscreenPanel;
+    public GameObject completedRingMinigamePanel;
+
+    public GameObject kissFullscreenPanel;
+    public GameObject completedKissMinigamePanel;
 
 
     public static UIManager instance;
@@ -111,12 +114,23 @@ public class UIManager : MonoBehaviour
 
     public void GoToCompletedRingsPanel()
     {
-        RingsFullscreenPanel.SetActive(false);
-        CompletedRingMinigamePanel.SetActive(true);
+        ringsFullscreenPanel.SetActive(false);
+        completedRingMinigamePanel.SetActive(true);
     }
     public void GoToFullscreenRingsPanel()
     {
-        RingsFullscreenPanel.SetActive(true);
-        CompletedRingMinigamePanel.SetActive(false);
+        ringsFullscreenPanel.SetActive(true);
+        completedRingMinigamePanel.SetActive(false);
+    }
+
+    public void GoToCompletedKissPanel()
+    {
+        kissFullscreenPanel.SetActive(false);
+        completedKissMinigamePanel.SetActive(true);
+    }
+    public void GoToFullscreenKissPanel()
+    {
+        kissFullscreenPanel.SetActive(true);
+        completedKissMinigamePanel.SetActive(false);
     }
 }
