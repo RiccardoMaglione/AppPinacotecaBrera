@@ -6,15 +6,16 @@ using UnityEngine.UI;
 public class MapButton : MonoBehaviour
 {
     public GameObject MapPanel;
-    public Text[] TextButton;
+    public Button[] ThisButton;
+    public Sprite[] SpriteButton;
     private void Start()
     {
         MapPanel.SetActive(false);
-        for (int i = 0; i < TextButton.Length; i++)
+        for (int i = 0; i < ThisButton.Length; i++)
         {
-            if (TextButton[i] != null)
+            if (ThisButton[i] != null)
             {
-                TextButton[i].text = "OPEN MAP";
+                ThisButton[i].GetComponent<Image>().sprite = SpriteButton[0];
             }
         }
     }
@@ -23,22 +24,22 @@ public class MapButton : MonoBehaviour
         if (MapPanel.activeSelf == false)
         {
             MapPanel.SetActive(true);
-            for (int i = 0; i < TextButton.Length; i++)
+            for (int i = 0; i < ThisButton.Length; i++)
             {
-                if(TextButton[i] != null)
+                if(ThisButton[i] != null)
                 {
-                    TextButton[i].text = "CLOSE MAP";
+                    ThisButton[i].GetComponent<Image>().sprite = SpriteButton[1];
                 }
             }
         }
         else
         {
             MapPanel.SetActive(false);
-            for (int i = 0; i < TextButton.Length; i++)
+            for (int i = 0; i < ThisButton.Length; i++)
             {
-                if (TextButton[i] != null)
+                if (ThisButton[i] != null)
                 {
-                    TextButton[i].text = "OPEN MAP";
+                    ThisButton[i].GetComponent<Image>().sprite = SpriteButton[0];
                 }
             }
         }

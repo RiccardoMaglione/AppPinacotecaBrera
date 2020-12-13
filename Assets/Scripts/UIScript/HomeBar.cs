@@ -8,9 +8,12 @@ public class HomeBar : MonoBehaviour
     public GameObject Home;
     public GameObject EndValueActivate;
     public GameObject InfoButtonLeft;
-    public GameObject InfoButtonRight;
-    public GameObject LineRightBlackDown;
-    public GameObject LineLeftBlackDown;
+    public GameObject WallpaperClose;
+    public GameObject WallpaperOpen;
+
+    public GameObject ArrowLeft;
+    public GameObject ArrowRight;
+
     public float TranslateTimeActivate = 2;
     public float TranslateTimeDeactivate = 2;
 
@@ -21,12 +24,14 @@ public class HomeBar : MonoBehaviour
         Home.transform.position = new Vector3(-(EndValueActivate.transform.position.x * 425), Home.transform.position.y, Home.transform.position.z);
         if(InfoButtonLeft != null)
             InfoButtonLeft.SetActive(false);
-        if (LineLeftBlackDown != null)
-            LineLeftBlackDown.SetActive(false);
-        if (InfoButtonRight != null)
-            InfoButtonRight.SetActive(true);
-        if (LineRightBlackDown != null)
-            LineRightBlackDown.SetActive(true);
+        if (WallpaperOpen != null)
+            WallpaperOpen.SetActive(false);
+        if (ArrowLeft != null)
+            ArrowLeft.SetActive(false);
+        if (WallpaperClose != null)
+            WallpaperClose.SetActive(true);
+        if (ArrowRight != null)
+            ArrowRight.SetActive(true);
     }
 
 
@@ -57,26 +62,30 @@ public class HomeBar : MonoBehaviour
 
     IEnumerator ActiveThings()
     {
-        yield return new WaitForSeconds(TranslateTimeActivate);
+        yield return new WaitForSeconds(0);
         if(InfoButtonLeft != null)
             InfoButtonLeft.SetActive(true);
-        if (LineLeftBlackDown != null)
-            LineLeftBlackDown.SetActive(true);
-        if (InfoButtonRight != null)
-            InfoButtonRight.SetActive(false);
-        if (LineRightBlackDown != null)
-            LineRightBlackDown.SetActive(false);
+        if (WallpaperOpen != null)
+            WallpaperOpen.SetActive(true);
+        if (ArrowLeft != null)
+            ArrowLeft.SetActive(true);
+        if (WallpaperClose != null)
+            WallpaperClose.SetActive(false);
+        if (ArrowRight != null)
+            ArrowRight.SetActive(true);
     }
     IEnumerator DeactiveThings()
     {
-        yield return new WaitForSeconds(TranslateTimeActivate);
+        yield return new WaitForSeconds(0);
         if(InfoButtonLeft != null)
             InfoButtonLeft.SetActive(false);
-        if (LineLeftBlackDown != null)
-            LineLeftBlackDown.SetActive(false);
-        if (InfoButtonRight != null)
-            InfoButtonRight.SetActive(true);
-        if (LineRightBlackDown != null)
-            LineRightBlackDown.SetActive(true);
+        if (WallpaperOpen != null)
+            WallpaperOpen.SetActive(false);
+        if (ArrowLeft != null)
+            ArrowLeft.SetActive(false);
+        if (WallpaperClose != null)
+            WallpaperClose.SetActive(true);
+        if (ArrowRight != null)
+            ArrowRight.SetActive(true);
     }
 }

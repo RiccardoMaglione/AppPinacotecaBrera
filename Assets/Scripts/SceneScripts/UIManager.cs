@@ -16,6 +16,8 @@ public class UIManager : MonoBehaviour
     public GameObject kissFullscreenPanel;
     public GameObject completedKissMinigamePanel;
 
+    public GameObject lightsFullscreenPanel;
+    public GameObject completedLightMinigamePanel;
 
     public static UIManager instance;
 
@@ -132,5 +134,16 @@ public class UIManager : MonoBehaviour
     {
         kissFullscreenPanel.SetActive(true);
         completedKissMinigamePanel.SetActive(false);
+    }
+
+    public void GoToCompletedLightPanel()
+    {
+        lightsFullscreenPanel.SetActive(false);
+        completedLightMinigamePanel.SetActive(true);
+    }
+    public void GoToFullscreenLightPanel()
+    {
+        lightsFullscreenPanel.SetActive(true);
+        completedLightMinigamePanel.SetActive(false);
     }
 }
