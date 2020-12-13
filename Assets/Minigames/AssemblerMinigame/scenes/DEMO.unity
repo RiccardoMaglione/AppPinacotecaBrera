@@ -266,7 +266,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 0, g: 0, b: 0, a: 0}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -341,7 +341,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -449,7 +449,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 173808051}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -8.47, y: -27.75, z: 0}
+  m_LocalPosition: {x: -9.85, y: -22.310001, z: 0}
   m_LocalScale: {x: 0.2, y: 0.2, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -654,7 +654,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 223528376}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -2.41, y: -27.96, z: 0}
+  m_LocalPosition: {x: -0.77, y: -22.47, z: 0}
   m_LocalScale: {x: 0.2, y: 0.2, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -824,7 +824,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 227333110}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -11.38, y: -28.14, z: 0}
+  m_LocalPosition: {x: -3.66, y: -27.74, z: 0}
   m_LocalScale: {x: 0.2, y: 0.2, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -1367,8 +1367,8 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1666712132}
   m_HandleRect: {fileID: 1666712131}
   m_Direction: 2
-  m_Value: 0
-  m_Size: 0.32158193
+  m_Value: 1
+  m_Size: 0.26689625
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:
@@ -1556,7 +1556,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 520475326}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.97, y: -28.09, z: 0}
+  m_LocalPosition: {x: 3.6, y: -22.650002, z: 0}
   m_LocalScale: {x: 0.2, y: 0.2, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -1850,7 +1850,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 586984615}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 11.46, y: -28.08, z: 0}
+  m_LocalPosition: {x: 3.93, y: -27.61, z: 0}
   m_LocalScale: {x: 0.2, y: 0.2, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -2009,7 +2009,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 627436411}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 8.92, y: -28.08, z: 0}
+  m_LocalPosition: {x: 0.18, y: -28.02, z: 0}
   m_LocalScale: {x: 0.2, y: 0.2, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -2180,7 +2180,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 656050122}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 4.86, y: -28.24, z: 0}
+  m_LocalPosition: {x: 9.05, y: -22.66, z: 0}
   m_LocalScale: {x: 0.2, y: 0.2, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -2414,7 +2414,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -2616,7 +2616,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &928858063
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3230,6 +3230,8 @@ MonoBehaviour:
   completedRingMinigamePanel: {fileID: 0}
   kissFullscreenPanel: {fileID: 2134702564}
   completedKissMinigamePanel: {fileID: 1569427703}
+  lightsFullscreenPanel: {fileID: 0}
+  completedLightMinigamePanel: {fileID: 0}
 --- !u!4 &1032113066
 Transform:
   m_ObjectHideFlags: 0
@@ -3501,7 +3503,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 0, g: 0, b: 0, a: 0}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -3565,7 +3567,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 0}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 497.85626}
+  m_SizeDelta: {x: 0, y: 485}
   m_Pivot: {x: 0.5, y: 0}
 --- !u!114 &1177824281
 MonoBehaviour:
@@ -3610,7 +3612,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 0.392}
+  m_Color: {r: 0, g: 0, b: 0, a: 0}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -4157,7 +4159,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1377612608}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -15.14, y: -28.46, z: 0}
+  m_LocalPosition: {x: -8.980001, y: -28.11, z: 0}
   m_LocalScale: {x: 0.2, y: 0.2, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -4928,24 +4930,22 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed cursus pretium
-    lorem ac volutpat. Curabitur a bibendum quam. Aenean enim dui, ultrices vitae
-    lacus ut, hendrerit vulputate tellus. Vestibulum laoreet dolor at nisi placerat
-    eleifend. Suspendisse vel ligula eget augue vehicula facilisis eget id leo. Maecenas
-    ornare eleifend turpis vel pulvinar. Nam at eleifend urna. Etiam eu placerat
-    leo, dictum auctor sapien. Sed in varius sem.
-
-
-
-    Sed nec tincidunt arcu,
-    sed vehicula lorem. Vivamus maximus eros massa, vitae lobortis sapien efficitur
-    nec. Quisque tempus ante dui, sed euismod lectus viverra nec. Vestibulum non
-    dapibus tellus. Nunc hendrerit odio sit amet auctor luctus. In vel dolor augue.
-    Phasellus tincidunt lectus a finibus euismod. Vestibulum ante ipsum primis in
-    faucibus orci luctus et ultrices posuere cubilia curae; Suspendisse scelerisque
-    nibh urna, vel venenatis turpis venenatis ut. Duis erat tellus, aliquet sit amet
-    urna quis, malesuada volutpat nulla. Aliquam consectetur consectetur semper.
-    Donec condimentum risus sit amet lobortis ullamcorper.'
+  m_text: "TITOLO\r\nIl bacio\r\n\r\nAUTORE\r\nFrancesco Hayez\r\n\r\nDATA\r\n1859\n\nLa
+    tela fu presentata all\u2019Esposizione di Brera del 1859, che a pochi mesi di
+    distanza dall\u2019ingresso di Vittorio Emanuele II e di Napoleone III a Milano
+    celebrava il successo delle lotte risorgimentali, ma entr\xF2 in Pinacoteca solo
+    nel 1886 grazie al legato di Alfonso Maria Visconti, che l\u2019aveva commissionata.\r\n\xC8
+    una delle immagini simbolo della Pinacoteca e forse il dipinto pi\xF9 riprodotto
+    di tutto l\u2019Ottocento italiano, nata dall\u2019intento di simboleggiare l\u2019amore
+    di patria e il desiderio di vita della giovane nazione che usciva dalla seconda
+    guerra di indipendenza e che tante speranze poneva nei nuovi governanti. Ebbe
+    immediatamente uno strepitoso successo sia per le sue valenze patriottiche sia
+    per l\u2019ispirazione medievale del soggetto, esemplare del gusto romantico
+    del tempo; il pubblico si entusiam\xF2 per l\u2019audacia del bacio, ma riconobbe
+    anche il messaggio patriottico dei colori: le calze rosse e il risvolto verde
+    del mantello, accostati alla veste azzurra e bianca evocano le bandiere d\u2019Italia
+    e Francia.\r\nHayez ne realizz\xF2 altre versioni, oggi conservate in diverse
+    raccolte europee."
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 7c8d905cc0ef6df44b738f7126368963, type: 2}
   m_sharedMaterial: {fileID: 4848057652033913751, guid: 7c8d905cc0ef6df44b738f7126368963, type: 2}
@@ -4972,8 +4972,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 36
-  m_fontSizeBase: 36
+  m_fontSize: 42
+  m_fontSizeBase: 42
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -5054,8 +5054,8 @@ RectTransform:
   m_Father: {fileID: 1634633789}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 1, y: 0.32158193}
+  m_AnchorMin: {x: 0, y: 0.73310375}
+  m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 20, y: 20}
   m_Pivot: {x: 0.5, y: 0.5}
@@ -5176,7 +5176,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1746476523}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 15.08, y: -27.69, z: 0}
+  m_LocalPosition: {x: 8.88, y: -27.58, z: 0}
   m_LocalScale: {x: 0.2, y: 0.2, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -5501,7 +5501,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1845920471}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -5.42, y: -28.22, z: 0}
+  m_LocalPosition: {x: -5.28, y: -22.78, z: 0}
   m_LocalScale: {x: 0.2, y: 0.2, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -5849,7 +5849,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 0}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -5997,8 +5997,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: 1056.62}
-  m_SizeDelta: {x: 0, y: 1557.4763}
+  m_AnchoredPosition: {x: 0, y: -0.00005221367}
+  m_SizeDelta: {x: 0, y: 1828.4258}
   m_Pivot: {x: 0, y: 1}
 --- !u!1 &2134702564
 GameObject:
@@ -6152,7 +6152,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1

@@ -34,7 +34,27 @@ public class UIManager : MonoBehaviour
         {
             instance = this;
         }
+        SaveStatusMinigame();
     }
+
+    private void Update()
+    {
+      if (PlayerPrefs.GetInt("Luca") ==1) 
+        {
+            GoToCompletedRingsPanel();
+        }
+
+        if (PlayerPrefs.GetInt("Puzzle") == 1)
+        {
+            GoToCompletedKissPanel();
+        }
+        if (PlayerPrefs.GetInt("Light") == 1)
+        {
+            GoToCompletedRingsPanel();
+        }
+    }
+
+
 
 
     public void GoToPlay()
@@ -145,5 +165,15 @@ public class UIManager : MonoBehaviour
     {
         lightsFullscreenPanel.SetActive(true);
         completedLightMinigamePanel.SetActive(false);
+    }
+
+    public void SaveStatusMinigame()
+    {
+        int varRing = PlayerPrefs.GetInt("Luca");
+        PlayerPrefs.SetInt("Luca", varRing);
+        int varPuzzle = PlayerPrefs.GetInt("Puzzle");
+        PlayerPrefs.SetInt("Puzzle", varPuzzle);
+        int varLight = PlayerPrefs.GetInt("Light");
+        PlayerPrefs.SetInt("Light", varLight);
     }
 }

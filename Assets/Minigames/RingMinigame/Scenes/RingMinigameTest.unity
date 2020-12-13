@@ -256,7 +256,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 72160991}
         m_TargetAssemblyTypeName: UIManager, Assembly-CSharp
-        m_MethodName: GoToCompletedRingsPanel
+        m_MethodName: WarpPicture1
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -279,7 +279,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 0, g: 0, b: 0, a: 0}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -342,6 +342,8 @@ MonoBehaviour:
   completedRingMinigamePanel: {fileID: 1192718492}
   kissFullscreenPanel: {fileID: 0}
   completedKissMinigamePanel: {fileID: 0}
+  lightsFullscreenPanel: {fileID: 0}
+  completedLightMinigamePanel: {fileID: 0}
 --- !u!4 &72160992
 Transform:
   m_ObjectHideFlags: 0
@@ -411,7 +413,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0, g: 0, b: 0, a: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 0}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -667,7 +669,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -675,7 +677,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_Font: {fileID: 12800000, guid: 7e5568f3f8ff9dd4cb8b4e8676b5308f, type: 3}
     m_FontSize: 50
     m_FontStyle: 0
     m_BestFit: 0
@@ -1318,7 +1320,6 @@ GameObject:
   - component: {fileID: 712826187}
   - component: {fileID: 712826186}
   - component: {fileID: 712826185}
-  - component: {fileID: 712826188}
   m_Layer: 5
   m_Name: Scroll View
   m_TagString: Untagged
@@ -1335,7 +1336,7 @@ RectTransform:
   m_GameObject: {fileID: 712826183}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0, y: 0, z: 1}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1890043613}
   - {fileID: 685745009}
@@ -1346,7 +1347,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 0}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 374.87134}
+  m_SizeDelta: {x: 0, y: 485}
   m_Pivot: {x: 0.5, y: 0}
 --- !u!114 &712826185
 MonoBehaviour:
@@ -1391,7 +1392,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 0.392}
+  m_Color: {r: 0, g: 0, b: 0, a: 0}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -1416,21 +1417,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 712826183}
   m_CullTransparentMesh: 0
---- !u!114 &712826188
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 712826183}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 625cf2edc8174eb48a2b5a0943436446, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  time: 1.5
-  type: 1
-  direction: 0
 --- !u!1 &716137714
 GameObject:
   m_ObjectHideFlags: 0
@@ -1481,7 +1467,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -1617,7 +1603,7 @@ RectTransform:
   m_Father: {fileID: 386044205}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0.9920608}
+  m_AnchorMin: {x: 0, y: 0.7890301}
   m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 20, y: 20}
@@ -2229,7 +2215,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 0, g: 0, b: 0, a: 0}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -2378,8 +2364,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 10907, guid: 0000000000000000f000000000000000, type: 0}
-  m_Type: 1
+  m_Sprite: {fileID: 0}
+  m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
   m_FillMethod: 4
@@ -2919,7 +2905,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -3030,7 +3016,7 @@ MonoBehaviour:
   m_HandleRect: {fileID: 804415410}
   m_Direction: 2
   m_Value: 1
-  m_Size: 0.00793921
+  m_Size: 0.21096992
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:
@@ -3180,7 +3166,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 0, g: 0, b: 0, a: 0}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -3793,8 +3779,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: -30, y: 0}
+  m_AnchoredPosition: {x: -1.5180664, y: -0.018310547}
+  m_SizeDelta: {x: -80.848816, y: 0.03668213}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1956174725
 MonoBehaviour:
@@ -3816,23 +3802,26 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce ut egestas
-    orci. Pellentesque varius imperdiet ipsum, nec condimentum orci dictum mattis.
-    Etiam egestas lobortis diam id suscipit. Sed tempus pellentesque gravida. In
-    id hendrerit velit. Duis lacinia, tellus vitae aliquam ultrices, ligula elit
-    suscipit lacus, ac pulvinar quam enim quis turpis. Nunc lorem leo, ullamcorper
-    vitae metus at, pulvinar sodales mauris. Etiam sed arcu nec urna tempus lacinia
-    vitae non erat. Nullam feugiat enim eu velit gravida iaculis. Curabitur suscipit
-    laoreet mollis. Fusce elementum mi a arcu porta faucibus.\r\n\r\nCurabitur at
-    molestie libero. Cras egestas magna molestie consequat imperdiet. Quisque rhoncus
-    fringilla ipsum, sit amet maximus neque rutrum eget. Etiam sed lacus sit amet
-    leo euismod posuere. Vestibulum odio tellus, feugiat sit amet urna et, pellentesque
-    auctor odio. Praesent sodales tempus leo quis consectetur. Quisque faucibus,
-    ante sed tincidunt finibus, ligula tellus molestie arcu, eu imperdiet tellus
-    velit id nibh. Pellentesque a luctus nibh. Phasellus at ligula eget augue luctus
-    faucibus blandit ac magna. Curabitur ante quam, volutpat in tortor a, feugiat
-    laoreet nulla. Ut sodales lorem diam, et mollis velit pharetra ut. Maecenas sodales
-    orci eget sapien maximus, nec faucibus dui dictum.\r"
+  m_text: "TITOLO\r\nSposalizio della Vergine\r\n\r\nAUTORE\r\nRaffaello Sanzio\r\n\r\nDATA\r\n1504\r\n\n\nIl
+    dipinto, datato 1504, proviene dalla chiesa di San Francesco a Citt\xE0 di Castello
+    e giunse a Brera nel 1805. Raffaello concep\xEC lo Sposalizio della Vergine avendo
+    a modello la pala di analogo soggetto eseguita da Perugino e oggi conservata
+    al Mus\xE9e des Beaux-Arts di Caen, di cui riprese l\u2019impianto compositivo
+    e l\u2019iconografia per ottenere un risultato di straordinaria e irraggiungibile
+    perfezione.\r\nLe riflettografie rivelano un fitto tracciato di linee convergenti
+    verso la porta del tempio, che definiscono l\u2019impianto prospettico dell\u2019immagine
+    nel pieno rispetto delle indicazioni fornite dal trattato De prospectiva pingendi
+    di Piero della Francesca. Grazie a questo artificio, il tempio diviene il centro
+    ottico della composizione e la posizione delle figure, disposte a semicerchio,
+    bilancia l\u2019andamento convesso dell\u2019architettura, a sua volta resa con
+    tale precisione da suggerire agli studiosi l\u2019esistenza di un modello ligneo.\r\nTutti
+    gli elementi sono legati da relazioni matematiche di proporzione e sono disposti
+    secondo un preciso e serrato ordine gerarchico, laddove Perugino aveva semplicemente
+    accostato le parti della composizione entro una struttura prospetticamente corretta.
+    La realizzazione di questo coerente organismo esprimeva appieno le riflessioni
+    di Raffaello, che intendeva la bellezza come ordine astratto di rappresentazione
+    geometrica e riteneva compito dell\u2019artista \u201Cfare le cose non come le
+    fa la natura ma come ella le dovrebbe fare\u201D."
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 7c8d905cc0ef6df44b738f7126368963, type: 2}
   m_sharedMaterial: {fileID: 4848057652033913751, guid: 7c8d905cc0ef6df44b738f7126368963, type: 2}
@@ -3859,8 +3848,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 36
-  m_fontSizeBase: 36
+  m_fontSize: 42
+  m_fontSizeBase: 42
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -4017,6 +4006,6 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -3240, y: 46423.41}
-  m_SizeDelta: {x: 0, y: 832.5592}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 2313.1257}
   m_Pivot: {x: 0, y: 1}

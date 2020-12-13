@@ -35,6 +35,7 @@ namespace Brera.Minigames.AssemblerPuzzle
             (_pieces[4].transform.rotation == Quaternion.Euler(0, 0, 0) || _pieces[4].transform.rotation == Quaternion.Euler(0, 0, 360))
             )
             {
+                PlayerPrefs.SetInt("Luca", 1);
                 UIManager.instance.GoToCompletedRingsPanel();
             }
         }

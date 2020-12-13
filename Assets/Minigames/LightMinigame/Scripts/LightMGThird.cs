@@ -10,7 +10,7 @@ public class LightMGThird : MonoBehaviour
     {
         if(PiecesImages[0].activeInHierarchy && PiecesImages[1].activeInHierarchy && PiecesImages[2].activeInHierarchy && PiecesImages[3].activeInHierarchy)
         {
-            UIManager.instance.WarpPicture2();
+            PlayerPrefs.SetInt("Light", 1);
         }
     }
     public void ButtonOne()
