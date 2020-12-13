@@ -526,6 +526,7 @@ GameObject:
   - component: {fileID: 191901706}
   - component: {fileID: 191901705}
   - component: {fileID: 191901708}
+  - component: {fileID: 191901709}
   m_Layer: 5
   m_Name: Image
   m_TagString: Untagged
@@ -619,6 +620,21 @@ CircleCollider2D:
   m_Offset: {x: 0.15227382, y: -0.10255538}
   serializedVersion: 2
   m_Radius: 49.99519
+--- !u!114 &191901709
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 191901703}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e19747de3f5aca642ab2be37e372fb86, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_EffectColor: {r: 0, g: 0, b: 0, a: 1}
+  m_EffectDistance: {x: 0.5, y: 0.5}
+  m_UseGraphicAlpha: 1
 --- !u!1 &284559328
 GameObject:
   m_ObjectHideFlags: 0
@@ -842,6 +858,7 @@ GameObject:
   - component: {fileID: 331001751}
   - component: {fileID: 331001750}
   - component: {fileID: 331001753}
+  - component: {fileID: 331001754}
   m_Layer: 5
   m_Name: Image (1)
   m_TagString: Untagged
@@ -935,6 +952,21 @@ CircleCollider2D:
   m_Offset: {x: 0.018160174, y: 0.0070365793}
   serializedVersion: 2
   m_Radius: 41.670944
+--- !u!114 &331001754
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 331001748}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e19747de3f5aca642ab2be37e372fb86, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_EffectColor: {r: 0, g: 0, b: 0, a: 1}
+  m_EffectDistance: {x: 0.5, y: 0.5}
+  m_UseGraphicAlpha: 1
 --- !u!1 &386044204
 GameObject:
   m_ObjectHideFlags: 0
@@ -984,6 +1016,7 @@ GameObject:
   - component: {fileID: 664992769}
   - component: {fileID: 664992768}
   - component: {fileID: 664992771}
+  - component: {fileID: 664992772}
   m_Layer: 5
   m_Name: Image (2)
   m_TagString: Untagged
@@ -1077,6 +1110,21 @@ CircleCollider2D:
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Radius: 33.32
+--- !u!114 &664992772
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 664992766}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e19747de3f5aca642ab2be37e372fb86, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_EffectColor: {r: 0, g: 0, b: 0, a: 1}
+  m_EffectDistance: {x: 0.5, y: 0.5}
+  m_UseGraphicAlpha: 1
 --- !u!1 &685745008
 GameObject:
   m_ObjectHideFlags: 0
@@ -1215,6 +1263,7 @@ GameObject:
   - component: {fileID: 689061853}
   - component: {fileID: 689061852}
   - component: {fileID: 689061855}
+  - component: {fileID: 689061856}
   m_Layer: 5
   m_Name: Image (4)
   m_TagString: Untagged
@@ -1308,6 +1357,21 @@ CircleCollider2D:
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Radius: 16.67
+--- !u!114 &689061856
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 689061850}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e19747de3f5aca642ab2be37e372fb86, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_EffectColor: {r: 0, g: 0, b: 0, a: 1}
+  m_EffectDistance: {x: 0.5, y: 0.5}
+  m_UseGraphicAlpha: 1
 --- !u!1 &712826183
 GameObject:
   m_ObjectHideFlags: 0
@@ -1430,7 +1494,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 04dc8f4fda4b15b4d9fc97348e0ea285, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  time: 3
+  time: 2
   type: 1
   direction: -2150
 --- !u!1 &716137714
@@ -3220,6 +3284,7 @@ GameObject:
   - component: {fileID: 1567873234}
   - component: {fileID: 1567873233}
   - component: {fileID: 1567873236}
+  - component: {fileID: 1567873237}
   m_Layer: 5
   m_Name: Image (3)
   m_TagString: Untagged
@@ -3313,6 +3378,21 @@ CircleCollider2D:
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Radius: 25.02
+--- !u!114 &1567873237
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1567873231}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e19747de3f5aca642ab2be37e372fb86, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_EffectColor: {r: 0, g: 0, b: 0, a: 1}
+  m_EffectDistance: {x: 0.5, y: 0.5}
+  m_UseGraphicAlpha: 1
 --- !u!1 &1646167319
 GameObject:
   m_ObjectHideFlags: 0
