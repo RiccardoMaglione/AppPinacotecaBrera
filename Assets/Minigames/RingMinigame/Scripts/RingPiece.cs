@@ -4,6 +4,7 @@ namespace Brera.Minigames.AssemblerPuzzle
 {
     public class RingPiece : MonoBehaviour
     {
+        public GameObject Touch;
         Vector3 _prevPos = Vector3.zero;
         Vector3 _lastPos = Vector3.zero;
         bool _canSnap = false;
@@ -27,12 +28,14 @@ namespace Brera.Minigames.AssemblerPuzzle
                 if (_prevPos.x < _lastPos.x)
                 {
                     RotateObject(-45);
+                    Touch.SetActive(false);
                     _canSnap = false;
                 }
                 
                 else
                 {
                     RotateObject(45);
+                    Touch.SetActive(false);
                     _canSnap = false;
                 }
             }
