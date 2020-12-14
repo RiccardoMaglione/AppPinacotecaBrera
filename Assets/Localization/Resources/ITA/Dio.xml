@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<Dog xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+
+  <HomeTitle>Il Mistero del Museo</HomeTitle>
+
+  <HomeText>
+    Qualcosa di strano sta capitando all'interno della pinacoteca di Brera. Alcune delle più famose opere d'arte stanno scomparendo nel nulla, portate via da misteriose figure che sostituiscono gli originali con dei falsi contraffatti. Nessuno conosce i responsabili, né quali siano le reali motivazioni dietro questo comportamento, ma c'è chi giura che queste figure abbiano un che di "soprannaturale".
+
+    L'unico modo per scoprire chi c'è dietro queste sparizioni è indagando sul posto, grazie alla speciale tecnologia - la nostra APP - che abbiamo a disposizione.
+  </HomeText>
+  
+  <exampleAge>Italian Age</exampleAge>
+  <exampleID>Italian ID</exampleID>
+</Dog>

@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <ExampleDocument xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <exampleName>English Name</exampleName>
-  <exampleSurname>Englis Surname</exampleSurname>
+  <exampleSurname>English Surname</exampleSurname>
   <exampleAge>English Age</exampleAge>
-  <exampleID>Englis ID</exampleID>
+  <exampleID>English ID</exampleID>
 </ExampleDocument>

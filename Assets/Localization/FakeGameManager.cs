@@ -8,7 +8,7 @@ public class FakeGameManager : MonoBehaviour
     // Initialize the LOCALIZATION MANGER during resource loading procedure
     // Otherwise try to create and initialize it before RUNTIME-UI initialization
     //
-    internal Localization.LocalizationManager localizationManager;
+    public Localization.LocalizationManager localizationManager;
     public static FakeGameManager singleton;
 
     /* UNITY CALLBACKS */

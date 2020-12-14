@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<Dog xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ 
+  <HomeTitle>The Mystery of the Museum</HomeTitle>
+ 
+  <HomeText>
+    Something strange is happening inside the Piancoteca of Brera. Some of the most famous paintings in the world are disappearing, taken away by mysterious figures who substitue the originals with badly counterfitted falses. No one knows the responsables, but there are some who thinks those figures have something to do with the supernatural.
+    
+    The only way to discover who is behind all these disappearences is investigating on location, thanks to our new technology - our APP - that with have available
+  </HomeText>
+  
+  
+  <exampleID>English ID</exampleID>
+</Dog>

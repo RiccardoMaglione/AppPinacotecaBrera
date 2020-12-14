@@ -63,10 +63,10 @@ namespace Localization
             switch (localization)
             {
                 case ELanguage.ENG:
-                    if (doc is Localization.Documents.ExampleDocument) filePath = "/Localization/Resources/ENG/Example.xml";
+                    if (doc is Localization.Documents.Dog) filePath = "/Localization/Resources/ENG/God.xml";
                     break;
                 case ELanguage.ITA:
-                    if (doc is Localization.Documents.ExampleDocument) filePath = "/Localization/Resources/ITA/Example.xml";
+                    if (doc is Localization.Documents.Dog) filePath = "/Localization/Resources/ITA/Dio.xml";
                     break;
             }
 
