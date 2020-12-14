@@ -8,6 +8,7 @@ namespace Localization
     public sealed class LocalizationManager
     {
         public enum ELanguage { ENG, ITA }
+        public static LocalizationManager Singleton;
 
         ELanguage _localization;
         /// <summary>
@@ -49,6 +50,8 @@ namespace Localization
         public void Initialize(ELanguage language)
         {
             _localization = language;
+
+            Singleton = this;
         }
         /// <summary>
         /// Return a localization document

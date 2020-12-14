@@ -2,13 +2,21 @@
 <Dog xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
  
   <HomeTitle>The Mystery of the Museum</HomeTitle>
- 
   <HomeText>
-    Something strange is happening inside the Piancoteca of Brera. Some of the most famous paintings in the world are disappearing, taken away by mysterious figures who substitue the originals with badly counterfitted falses. No one knows the responsables, but there are some who thinks those figures have something to do with the supernatural.
+    Something strange is happening inside the Gallery of Brera. Some of the most famous paintings in the world are disappearing, taken away by mysterious figures who substitue the originals with badly counterfitted falses. No one knows the responsables, but there are some who thinks those figures have something to do with the supernatural.
     
     The only way to discover who is behind all these disappearences is investigating on location, thanks to our new technology - our APP - that with have available
   </HomeText>
   
-  
-  <exampleID>English ID</exampleID>
+  <MapTitle>Map</MapTitle>
+  <MapText>Choose a room, click it and discover the mysteries inside it!</MapText>
+
+  <VisitTitle>Visit</VisitTitle>
+  <VisitText>
+    The Gallery of Brera, opend to the public in 1809, contains masterpieces of italian and foreign art betwen the XIII and the XX cent., inside the nobile floor of the Brera's palace, which is also the locaiton of the academy of fine arts.
+    
+    The complex, tardo baroques styled, in built upon the rests of  a convent of the XII cent., of the order of the "Humiliated", and from the half of the XVIII cent. contains the academy, thanks to the initiative of the empress Maria Teresa of Austria. The museums was later born for the will of Napoleon Bonaparte, as a collection of samples intended for formation of the students, as container for the masterpieces of italian painting, brought there from churces and convents suppressed during the years of Milan as capitol of the Italian Reign.
+    
+    Differently from other great italian museums, Brera doesn't born from the collections of noble families or rulers, instead it comes from a political initiative of the state. Collections, than, have been expanded through acquisitions, donations and exchanges.
+  </VisitText>
 </Dog>

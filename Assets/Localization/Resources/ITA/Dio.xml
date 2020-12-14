@@ -2,13 +2,21 @@
 <Dog xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
 
   <HomeTitle>Il Mistero del Museo</HomeTitle>
-
   <HomeText>
     Qualcosa di strano sta capitando all'interno della pinacoteca di Brera. Alcune delle più famose opere d'arte stanno scomparendo nel nulla, portate via da misteriose figure che sostituiscono gli originali con dei falsi contraffatti. Nessuno conosce i responsabili, né quali siano le reali motivazioni dietro questo comportamento, ma c'è chi giura che queste figure abbiano un che di "soprannaturale".
-
+    
     L'unico modo per scoprire chi c'è dietro queste sparizioni è indagando sul posto, grazie alla speciale tecnologia - la nostra APP - che abbiamo a disposizione.
   </HomeText>
   
-  <exampleAge>Italian Age</exampleAge>
-  <exampleID>Italian ID</exampleID>
+  <MapTitle>Mappa</MapTitle> 
+  <MapText>Scegli una stanza, cliccaci sopra e scopri i misteri al suo interno!</MapText>
+
+  <VisitTitle>Visita</VisitTitle>
+  <VisitText>
+    La Pinacoteca di Brera, aperta al pubblico nel 1809, raccoglie capolavori dell'arte italiana e straniera dal XIII al XX secolo, allestiti al piano nobile dell'omonimo palazzo, sede anche dell'Accademia di Belle Arti.
+   
+    Il complesso, di impronta tardo barocca, sorge sui resti di un convento trecentesco dell'ordine degli Umiliati e, dalla seconda metà del Settecento, ospita l'accademia, grazie all'iniziativa dell'imperatrice Maria Teresa d'Austria. Il Museo nasce invece per volontà di Napoleone Bonaparte, come raccolta di opere esemplari da destinarsi alla formazione degli studenti, che radunasse capolavi di pittura italiana, prelevati da chiese e conventi soppressi negli anni di Milano capitale del Regno Italico.
+   
+    A differenza di altri grandi musei italiani Brera non ha origine dal collezionismo privato di regnanti e famiglie nobili ma da un' iniziativa politica di stato. Le collezioni si sono arricchite negli anni attraverso scambi, acquisti e donazioni.
+  </VisitText>
 </Dog>

@@ -6,6 +6,11 @@
         public string HomeText = "A";
         public string HomeTitle = "B";
         public string HomeButton = "C";
-        public string exampleID = "ID";
+        
+        public string MapTitle = "D";
+        public string MapText = "E";
+
+        public string VisitTitle = "F";
+        public string VisitText = "G";
     }
 }
