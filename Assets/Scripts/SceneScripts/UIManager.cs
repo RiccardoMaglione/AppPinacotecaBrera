@@ -19,13 +19,14 @@ public class UIManager : MonoBehaviour
     public GameObject lightsFullscreenPanel;
     public GameObject completedLightMinigamePanel;
 
+    public GameObject itaPanel;
+    public GameObject engPanel;
+
     public static UIManager instance;
 
     public static bool Warp1;
     public static bool Warp2;
     public static bool Warp3;
-
-    
     #endregion
 
     void Awake()
@@ -34,12 +35,25 @@ public class UIManager : MonoBehaviour
         {
             instance = this;
         }
+
+        //if (PlayerPrefs.GetInt("language", 0) == 1)
+        //{
+        //    itaPanel.SetActive(true);
+        //    engPanel.SetActive(false);
+        //}
+        //
+        //else
+        //{
+        //    itaPanel.SetActive(false);
+        //    engPanel.SetActive(true);
+        //}
+
         SaveStatusMinigame();
     }
 
     private void Update()
     {
-      if (PlayerPrefs.GetInt("Luca") ==1) 
+        if (PlayerPrefs.GetInt("Luca") == 1)
         {
             GoToCompletedRingsPanel();
         }
@@ -48,13 +62,12 @@ public class UIManager : MonoBehaviour
         {
             GoToCompletedKissPanel();
         }
+        
         if (PlayerPrefs.GetInt("Light") == 1)
         {
             GoToCompletedRingsPanel();
         }
     }
-
-
 
 
     public void GoToPlay()
@@ -77,7 +90,6 @@ public class UIManager : MonoBehaviour
         MenuPanel.SetActive(false);
         StatsPanel.SetActive(true);
     }
-
     public void BackToMenu()
     {
         if (MapPanel != null)
@@ -111,7 +123,6 @@ public class UIManager : MonoBehaviour
 
         MenuPanel.SetActive(true);
     }
-
     public void WarpPicture1()
     {
         Warp2 = false;
@@ -133,7 +144,6 @@ public class UIManager : MonoBehaviour
         Warp3 = true;
         SceneManager.LoadScene("BlockOut");
     }
-
     public void GoToCompletedRingsPanel()
     {
         ringsFullscreenPanel.SetActive(false);
@@ -144,7 +154,6 @@ public class UIManager : MonoBehaviour
         ringsFullscreenPanel.SetActive(true);
         completedRingMinigamePanel.SetActive(false);
     }
-
     public void GoToCompletedKissPanel()
     {
         kissFullscreenPanel.SetActive(false);
@@ -155,7 +164,6 @@ public class UIManager : MonoBehaviour
         kissFullscreenPanel.SetActive(true);
         completedKissMinigamePanel.SetActive(false);
     }
-
     public void GoToCompletedLightPanel()
     {
         lightsFullscreenPanel.SetActive(false);
@@ -166,7 +174,6 @@ public class UIManager : MonoBehaviour
         lightsFullscreenPanel.SetActive(true);
         completedLightMinigamePanel.SetActive(false);
     }
-
     public void SaveStatusMinigame()
     {
         int varRing = PlayerPrefs.GetInt("Luca");
