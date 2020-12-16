@@ -10,6 +10,10 @@ public class UIManager : MonoBehaviour
     public GameObject StatsPanel;
     public GameObject MapPanel;
 
+    public GameObject StatsInStatsPanel;
+    public GameObject BadgePanel;
+    public GameObject PaintingsPanel;
+
     public GameObject ringsFullscreenPanel;
     public GameObject completedRingMinigamePanel;
 
@@ -123,6 +127,26 @@ public class UIManager : MonoBehaviour
 
         MenuPanel.SetActive(true);
     }
+
+    public void BackToStats()
+    {
+        if (BadgePanel != null)
+        {
+            if (BadgePanel.activeSelf == true)
+            {
+                BadgePanel.SetActive(false);
+            }
+        }
+        if (PaintingsPanel != null)
+        {
+            if (PaintingsPanel.activeSelf == true)
+            {
+                PaintingsPanel.SetActive(false);
+            }
+        }
+
+        StatsInStatsPanel.SetActive(true);
+    }
     public void WarpPicture1()
     {
         Warp2 = false;
@@ -182,5 +206,16 @@ public class UIManager : MonoBehaviour
         PlayerPrefs.SetInt("Puzzle", varPuzzle);
         int varLight = PlayerPrefs.GetInt("Light");
         PlayerPrefs.SetInt("Light", varLight);
+    }
+
+    public void GoToBadge()
+    {
+        StatsInStatsPanel.SetActive(false);
+        BadgePanel.SetActive(true);
+    }
+    public void GoToQuadri()
+    {
+        StatsInStatsPanel.SetActive(false);
+        PaintingsPanel.SetActive(true);
     }
 }
