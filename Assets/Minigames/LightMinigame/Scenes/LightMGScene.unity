@@ -136,6 +136,7 @@ GameObject:
   - component: {fileID: 64293158}
   - component: {fileID: 64293157}
   - component: {fileID: 64293156}
+  - component: {fileID: 64293160}
   m_Layer: 5
   m_Name: FourthButton
   m_TagString: Untagged
@@ -231,6 +232,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 64293154}
+        m_TargetAssemblyTypeName: LightMGThird, Assembly-CSharp
+        m_MethodName: 
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: 
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &64293158
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -269,6 +282,21 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 64293154}
   m_CullTransparentMesh: 0
+--- !u!114 &64293160
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 64293154}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bdb2e730fc9f4dc4a8788fa7e67b21e1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Button: {fileID: 64293154}
+  ImgOn: {fileID: 0}
+  ImgOff: {fileID: 0}
 --- !u!1 &70854524
 GameObject:
   m_ObjectHideFlags: 0
@@ -1343,6 +1371,7 @@ GameObject:
   - component: {fileID: 704824100}
   - component: {fileID: 704824099}
   - component: {fileID: 704824098}
+  - component: {fileID: 704824102}
   m_Layer: 5
   m_Name: FirstButton
   m_TagString: Untagged
@@ -1438,6 +1467,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 704824096}
+        m_TargetAssemblyTypeName: LightMGThird, Assembly-CSharp
+        m_MethodName: 
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: 
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &704824100
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1476,6 +1517,21 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 704824096}
   m_CullTransparentMesh: 0
+--- !u!114 &704824102
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 704824096}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bdb2e730fc9f4dc4a8788fa7e67b21e1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Button: {fileID: 704824096}
+  ImgOn: {fileID: 0}
+  ImgOff: {fileID: 0}
 --- !u!1 &722489967
 GameObject:
   m_ObjectHideFlags: 0
@@ -2098,6 +2154,7 @@ GameObject:
   - component: {fileID: 1152402183}
   - component: {fileID: 1152402182}
   - component: {fileID: 1152402181}
+  - component: {fileID: 1152402185}
   m_Layer: 5
   m_Name: SecondButton
   m_TagString: Untagged
@@ -2193,6 +2250,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 1152402179}
+        m_TargetAssemblyTypeName: LightMGThird, Assembly-CSharp
+        m_MethodName: 
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: 
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1152402183
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2231,6 +2300,21 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1152402179}
   m_CullTransparentMesh: 0
+--- !u!114 &1152402185
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1152402179}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bdb2e730fc9f4dc4a8788fa7e67b21e1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Button: {fileID: 1152402179}
+  ImgOn: {fileID: 0}
+  ImgOff: {fileID: 0}
 --- !u!1 &1186873799
 GameObject:
   m_ObjectHideFlags: 0
@@ -3550,6 +3634,7 @@ GameObject:
   - component: {fileID: 1767683587}
   - component: {fileID: 1767683586}
   - component: {fileID: 1767683585}
+  - component: {fileID: 1767683589}
   m_Layer: 5
   m_Name: ThirdButton
   m_TagString: Untagged
@@ -3645,6 +3730,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 1767683583}
+        m_TargetAssemblyTypeName: LightMGThird, Assembly-CSharp
+        m_MethodName: 
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: 
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1767683587
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3683,6 +3780,21 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1767683583}
   m_CullTransparentMesh: 0
+--- !u!114 &1767683589
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1767683583}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bdb2e730fc9f4dc4a8788fa7e67b21e1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Button: {fileID: 1767683583}
+  ImgOn: {fileID: 0}
+  ImgOff: {fileID: 0}
 --- !u!1 &1824672731
 GameObject:
   m_ObjectHideFlags: 0
@@ -3856,6 +3968,8 @@ MonoBehaviour:
   completedKissMinigamePanel: {fileID: 0}
   lightsFullscreenPanel: {fileID: 225325106}
   completedLightMinigamePanel: {fileID: 1644529277}
+  itaPanel: {fileID: 0}
+  engPanel: {fileID: 0}
 --- !u!1 &1997999717
 GameObject:
   m_ObjectHideFlags: 0
