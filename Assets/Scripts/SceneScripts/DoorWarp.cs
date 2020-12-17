@@ -34,6 +34,7 @@ public class DoorWarp : MonoBehaviour
             {
                 if (hit.collider.name == "Door1")
                 {
+                    AudioManager.instance.Play("Movimento");
                     for (int i = 0; i < PlayerArray.Length; i++)
                     {
                         PlayerArray[i].SetActive(false);
@@ -42,6 +43,7 @@ public class DoorWarp : MonoBehaviour
                 }
                 if (hit.collider.name == "Door2")
                 {
+                    AudioManager.instance.Play("Movimento");
                     for (int i = 0; i < PlayerArray.Length; i++)
                     {
                         PlayerArray[i].SetActive(false);
@@ -50,6 +52,7 @@ public class DoorWarp : MonoBehaviour
                 }
                 if (hit.collider.name == "Door3")
                 {
+                    AudioManager.instance.Play("Movimento");
                     for (int i = 0; i < PlayerArray.Length; i++)
                     {
                         PlayerArray[i].SetActive(false);

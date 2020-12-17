@@ -76,6 +76,7 @@ public class UIManager : MonoBehaviour
 
     public void GoToPlay()
     {
+        AudioManager.instance.Play("BottoneEnter");
         MenuPanel.SetActive(false);
         MapPanel.SetActive(true);
     }

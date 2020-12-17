@@ -2139,8 +2139,28 @@ MonoBehaviour:
     loop: 0
     source: {fileID: 0}
   - name: EndMinigame
-    clip: {fileID: 8300000, guid: 30ac2b295a5a3474c8247d663dd41c60, type: 3}
-    volume: 0.3
+    clip: {fileID: 8300000, guid: 8ca8532fd8bbbbe47a57d37e870fc368, type: 3}
+    volume: 0.8
+    loop: 0
+    source: {fileID: 0}
+  - name: Movimento
+    clip: {fileID: 8300000, guid: a76eba257fbe6094199c0868a72eaa28, type: 3}
+    volume: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: BottoneEnter
+    clip: {fileID: 8300000, guid: e94724c458be1fc4eb13fca533db5bff, type: 3}
+    volume: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: InterruttoreOn
+    clip: {fileID: 8300000, guid: fcd2599b41bb38d499db2101b66b4658, type: 3}
+    volume: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: InterruttoreOFF
+    clip: {fileID: 8300000, guid: b1b1e4cc277059246b65cc834ee02877, type: 3}
+    volume: 1
     loop: 0
     source: {fileID: 0}
 --- !u!4 &507729897

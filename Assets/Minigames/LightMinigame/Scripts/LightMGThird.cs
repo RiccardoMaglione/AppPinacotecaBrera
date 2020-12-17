@@ -15,6 +15,7 @@ public class LightMGThird : MonoBehaviour
     }
     public void ButtonOne()
     {
+        AudioManager.instance.Play("InterruttoreOn");
         if (PiecesImages[1].activeInHierarchy)
             PiecesImages[1].SetActive(false);
         else
@@ -26,6 +27,7 @@ public class LightMGThird : MonoBehaviour
     }
     public void ButtonTwo()
     {
+        AudioManager.instance.Play("InterruttoreOn");
         if (PiecesImages[0].activeInHierarchy)
             PiecesImages[0].SetActive(false);
         else
@@ -37,6 +39,7 @@ public class LightMGThird : MonoBehaviour
     }
     public void ButtonThree()
     {
+        AudioManager.instance.Play("InterruttoreOn");
         if (PiecesImages[0].activeInHierarchy)
             PiecesImages[0].SetActive(false);
         else
@@ -52,6 +55,7 @@ public class LightMGThird : MonoBehaviour
     }
     public void ButtonFour()
     {
+        AudioManager.instance.Play("InterruttoreOn");
         if (PiecesImages[2].activeInHierarchy)
             PiecesImages[2].SetActive(false);
         else

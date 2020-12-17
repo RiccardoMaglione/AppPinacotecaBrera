@@ -3283,12 +3283,17 @@ MonoBehaviour:
   VisitPanel: {fileID: 0}
   StatsPanel: {fileID: 0}
   MapPanel: {fileID: 0}
+  StatsInStatsPanel: {fileID: 0}
+  BadgePanel: {fileID: 0}
+  PaintingsPanel: {fileID: 0}
   ringsFullscreenPanel: {fileID: 0}
   completedRingMinigamePanel: {fileID: 0}
   kissFullscreenPanel: {fileID: 2134702564}
   completedKissMinigamePanel: {fileID: 1569427703}
   lightsFullscreenPanel: {fileID: 0}
   completedLightMinigamePanel: {fileID: 0}
+  itaPanel: {fileID: 0}
+  engPanel: {fileID: 0}
 --- !u!4 &1032113066
 Transform:
   m_ObjectHideFlags: 0
@@ -3722,6 +3727,7 @@ GameObject:
   - component: {fileID: 1213169361}
   - component: {fileID: 1213169360}
   - component: {fileID: 1213169362}
+  - component: {fileID: 1213169363}
   m_Layer: 5
   m_Name: Image
   m_TagString: Untagged
@@ -3801,6 +3807,18 @@ MonoBehaviour:
   time: 2
   type: 1
   direction: 1800
+--- !u!114 &1213169363
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1213169358}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 52cbae14837af534986925e5d169a14d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1223215016
 GameObject:
   m_ObjectHideFlags: 0
