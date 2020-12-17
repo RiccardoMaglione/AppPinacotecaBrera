@@ -5,12 +5,16 @@ using UnityEngine;
 public class LightMGThird : MonoBehaviour
 {
     public GameObject[] PiecesImages;
+    public GameObject CompletePanel;
+    public GameObject MiniGamePanel;
 
     private void Update()
     {
         if(PiecesImages[0].activeInHierarchy && PiecesImages[1].activeInHierarchy && PiecesImages[2].activeInHierarchy && PiecesImages[3].activeInHierarchy)
         {
-            PlayerPrefs.SetInt("Light", 1);
+            //PlayerPrefs.SetInt("Light", 1);
+            MiniGamePanel.SetActive(false);
+            CompletePanel.SetActive(true);
         }
     }
     public void ButtonOne()

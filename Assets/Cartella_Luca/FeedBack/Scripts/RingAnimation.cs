@@ -13,17 +13,26 @@ public class RingAnimation : MonoBehaviour
     [SerializeField]
     float direction;
 
-  
+    public GameObject Manina;
 
-    // Start is called before the first frame update
-    void Start()
-    {
-              
-    }
+    RaycastHit hit;
+    Ray ray;
+
+
+
+    
 
     // Update is called once per frame
     void Update()
     {
-         LeanTween.moveY(gameObject, direction,time).setEase(type);  
+        LeanTween.moveY(gameObject, direction, time).setEase(type);
+        StartCoroutine(Late());
+                
+    }
+
+    IEnumerator Late()
+    {
+        yield return new WaitForSeconds(2f);
+        Manina.SetActive(true);
     }
 }

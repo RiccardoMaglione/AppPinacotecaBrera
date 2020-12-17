@@ -2831,6 +2831,7 @@ MonoBehaviour:
   time: 2
   type: 1
   direction: 365
+  Manina: {fileID: 0}
 --- !u!114 &1460843706
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3931,6 +3932,8 @@ MonoBehaviour:
   - {fileID: 2146027311}
   - {fileID: 1186873799}
   - {fileID: 1400100512}
+  CompletePanel: {fileID: 225325106}
+  MiniGamePanel: {fileID: 1824672731}
 --- !u!4 &1982738802
 Transform:
   m_ObjectHideFlags: 0
@@ -3962,6 +3965,9 @@ MonoBehaviour:
   VisitPanel: {fileID: 0}
   StatsPanel: {fileID: 0}
   MapPanel: {fileID: 0}
+  StatsInStatsPanel: {fileID: 0}
+  BadgePanel: {fileID: 0}
+  PaintingsPanel: {fileID: 0}
   ringsFullscreenPanel: {fileID: 0}
   completedRingMinigamePanel: {fileID: 0}
   kissFullscreenPanel: {fileID: 0}
@@ -3970,6 +3976,7 @@ MonoBehaviour:
   completedLightMinigamePanel: {fileID: 1644529277}
   itaPanel: {fileID: 0}
   engPanel: {fileID: 0}
+  Manina: {fileID: 0}
 --- !u!1 &1997999717
 GameObject:
   m_ObjectHideFlags: 0

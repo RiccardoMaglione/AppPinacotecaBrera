@@ -31,6 +31,8 @@ public class UIManager : MonoBehaviour
     public static bool Warp1;
     public static bool Warp2;
     public static bool Warp3;
+
+    public GameObject Manina;
     #endregion
 
     void Awake()
@@ -73,6 +75,10 @@ public class UIManager : MonoBehaviour
         }
     }
 
+    public void ActiveHead()
+    {
+        Destroy(Manina);
+    }
 
     public void GoToPlay()
     {
