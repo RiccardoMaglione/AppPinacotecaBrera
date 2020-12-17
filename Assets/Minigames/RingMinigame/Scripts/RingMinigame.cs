@@ -26,6 +26,18 @@ namespace Brera.Minigames.AssemblerPuzzle
 
         void Update()
         {
+            /*if 
+            (
+            (_pieces[0].transform.rotation == Quaternion.Euler(0, 0, 0) || _pieces[0].transform.rotation == Quaternion.Euler(0, 0, 360))||
+            (_pieces[1].transform.rotation == Quaternion.Euler(0, 0, 0) || _pieces[1].transform.rotation == Quaternion.Euler(0, 0, 360))||
+            (_pieces[2].transform.rotation == Quaternion.Euler(0, 0, 0) || _pieces[2].transform.rotation == Quaternion.Euler(0, 0, 360))||
+            (_pieces[3].transform.rotation == Quaternion.Euler(0, 0, 0) || _pieces[3].transform.rotation == Quaternion.Euler(0, 0, 360))||
+            (_pieces[4].transform.rotation == Quaternion.Euler(0, 0, 0) || _pieces[4].transform.rotation == Quaternion.Euler(0, 0, 360))
+            )
+            {
+                AudioManager.instance.Play("RotazionePerfetta");
+            }*/
+
             if
             (
             (_pieces[0].transform.rotation == Quaternion.Euler(0, 0, 0) || _pieces[0].transform.rotation == Quaternion.Euler(0, 0, 360))&&

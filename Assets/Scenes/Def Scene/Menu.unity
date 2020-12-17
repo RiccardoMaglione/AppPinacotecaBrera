@@ -2127,7 +2127,22 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2c95807b621f6a94693b81fc3caffb91, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sounds: []
+  sounds:
+  - name: RotazioneAnello
+    clip: {fileID: 8300000, guid: f30d89e09391d45408134560fa4f07fa, type: 3}
+    volume: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: RotazionePerfetta
+    clip: {fileID: 8300000, guid: 75f87eb49bd4ac841869548a9c40ca16, type: 3}
+    volume: 0.5
+    loop: 0
+    source: {fileID: 0}
+  - name: EndMinigame
+    clip: {fileID: 8300000, guid: 30ac2b295a5a3474c8247d663dd41c60, type: 3}
+    volume: 0.3
+    loop: 0
+    source: {fileID: 0}
 --- !u!4 &507729897
 Transform:
   m_ObjectHideFlags: 0
@@ -2999,6 +3014,7 @@ GameObject:
   - component: {fileID: 597514761}
   - component: {fileID: 597514760}
   - component: {fileID: 597514759}
+  - component: {fileID: 597514763}
   m_Layer: 0
   m_Name: Picture2Button
   m_TagString: Untagged
@@ -3148,6 +3164,25 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 597514757}
   m_CullTransparentMesh: 0
+--- !u!114 &597514763
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 597514757}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 19b48197ab6269c45b412cc2de5edd3f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  xVec3: 1
+  yVec3: 1
+  zVec3: 1
+  WaitTime: 2
+  Duration: 0.5
+  NumLoops: 0
+  isYoyo: 1
 --- !u!1 &630752355
 GameObject:
   m_ObjectHideFlags: 0
@@ -4355,7 +4390,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: 1.5998535}
+  m_AnchoredPosition: {x: 0, y: 1.6000977}
   m_SizeDelta: {x: -117, y: -1048.4343}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &893727213
@@ -4412,7 +4447,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 39.25
+  m_fontSize: 37.4
   m_fontSizeBase: 39
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -4811,6 +4846,7 @@ GameObject:
   - component: {fileID: 938696233}
   - component: {fileID: 938696232}
   - component: {fileID: 938696235}
+  - component: {fileID: 938696236}
   m_Layer: 0
   m_Name: Picture1Button
   m_TagString: Untagged
@@ -4835,7 +4871,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 11, y: -596}
+  m_AnchoredPosition: {x: 11, y: -570.9}
   m_SizeDelta: {x: 30, y: 37}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &938696232
@@ -4960,6 +4996,25 @@ MonoBehaviour:
             m_StringArgument: 
             m_BoolArgument: 0
           m_CallState: 2
+--- !u!114 &938696236
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 938696230}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 19b48197ab6269c45b412cc2de5edd3f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  xVec3: 1
+  yVec3: 1
+  zVec3: 1
+  WaitTime: 2
+  Duration: 0.5
+  NumLoops: 0
+  isYoyo: 1
 --- !u!1 &971676759
 GameObject:
   m_ObjectHideFlags: 0
@@ -6745,7 +6800,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: 1.5998535}
+  m_AnchoredPosition: {x: 0, y: 1.6000977}
   m_SizeDelta: {x: -117, y: -1048.4343}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1262483012
@@ -7713,7 +7768,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7509007508025849363, guid: a51d7f0252f1eee48b0090e03ec0f2f2, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -0.7199707
+      value: -0.72021484
       objectReference: {fileID: 0}
     - target: {fileID: 7509007508025849363, guid: a51d7f0252f1eee48b0090e03ec0f2f2, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -8214,6 +8269,7 @@ GameObject:
   - component: {fileID: 1602105190}
   - component: {fileID: 1602105189}
   - component: {fileID: 1602105188}
+  - component: {fileID: 1602105192}
   m_Layer: 0
   m_Name: Picture3Button
   m_TagString: Untagged
@@ -8363,6 +8419,25 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1602105186}
   m_CullTransparentMesh: 0
+--- !u!114 &1602105192
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1602105186}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 19b48197ab6269c45b412cc2de5edd3f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  xVec3: 1
+  yVec3: 1
+  zVec3: 1
+  WaitTime: 2
+  Duration: 0.5
+  NumLoops: 0
+  isYoyo: 1
 --- !u!1 &1607250479
 GameObject:
   m_ObjectHideFlags: 0
@@ -9691,6 +9766,7 @@ GameObject:
   - component: {fileID: 1810449073}
   - component: {fileID: 1810449072}
   - component: {fileID: 1810449075}
+  - component: {fileID: 1810449076}
   m_Layer: 0
   m_Name: Picture2Button
   m_TagString: Untagged
@@ -9715,7 +9791,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -66, y: -596}
+  m_AnchoredPosition: {x: -66, y: -569.6}
   m_SizeDelta: {x: 30, y: 37}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1810449072
@@ -9840,6 +9916,25 @@ MonoBehaviour:
             m_StringArgument: 
             m_BoolArgument: 0
           m_CallState: 2
+--- !u!114 &1810449076
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1810449070}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 19b48197ab6269c45b412cc2de5edd3f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  xVec3: 1
+  yVec3: 1
+  zVec3: 1
+  WaitTime: 2
+  Duration: 0.5
+  NumLoops: 0
+  isYoyo: 1
 --- !u!1 &1814603548
 GameObject:
   m_ObjectHideFlags: 0
@@ -9853,6 +9948,7 @@ GameObject:
   - component: {fileID: 1814603551}
   - component: {fileID: 1814603550}
   - component: {fileID: 1814603553}
+  - component: {fileID: 1814603554}
   m_Layer: 0
   m_Name: Picture3Button
   m_TagString: Untagged
@@ -9877,7 +9973,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -448, y: -233}
+  m_AnchoredPosition: {x: -448, y: -221.8}
   m_SizeDelta: {x: 30, y: 37}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1814603550
@@ -10002,6 +10098,25 @@ MonoBehaviour:
             m_StringArgument: 
             m_BoolArgument: 0
           m_CallState: 2
+--- !u!114 &1814603554
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1814603548}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 19b48197ab6269c45b412cc2de5edd3f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  xVec3: 1
+  yVec3: 1
+  zVec3: 1
+  WaitTime: 2
+  Duration: 0.5
+  NumLoops: 0
+  isYoyo: 1
 --- !u!1 &1824164598
 GameObject:
   m_ObjectHideFlags: 0
@@ -11238,6 +11353,7 @@ GameObject:
   - component: {fileID: 2032871482}
   - component: {fileID: 2032871481}
   - component: {fileID: 2032871480}
+  - component: {fileID: 2032871484}
   m_Layer: 0
   m_Name: Picture1Button
   m_TagString: Untagged
@@ -11387,6 +11503,25 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2032871478}
   m_CullTransparentMesh: 0
+--- !u!114 &2032871484
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2032871478}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 19b48197ab6269c45b412cc2de5edd3f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  xVec3: 1
+  yVec3: 1
+  zVec3: 1
+  WaitTime: 2
+  Duration: 0.5
+  NumLoops: 0
+  isYoyo: 1
 --- !u!1 &2051159450
 GameObject:
   m_ObjectHideFlags: 0

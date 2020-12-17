@@ -28,6 +28,7 @@ namespace Brera.Minigames.AssemblerPuzzle
                 if (_prevPos.x < _lastPos.x)
                 {
                     RotateObject(-45);
+                    AudioManager.instance.Play("RotazioneAnello");
                     Touch.SetActive(false);
                     _canSnap = false;
                 }
@@ -35,6 +36,7 @@ namespace Brera.Minigames.AssemblerPuzzle
                 else
                 {
                     RotateObject(45);
+                    AudioManager.instance.Play("RotazioneAnello");
                     Touch.SetActive(false);
                     _canSnap = false;
                 }
