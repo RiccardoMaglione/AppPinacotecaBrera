@@ -15,8 +15,7 @@ public class RingAnimation : MonoBehaviour
 
     public GameObject Manina;
 
-    RaycastHit hit;
-    Ray ray;
+    
 
 
 
