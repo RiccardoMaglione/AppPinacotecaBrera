@@ -39,10 +39,12 @@ public class HomeBar : MonoBehaviour
     {
         if (isActive == false)
         {
+            AudioManager.instance.Play("OpenTendina");
             ActiveHome();
         }
         else
         {
+            
             DeactiveHome();
         }
     }
@@ -55,6 +57,7 @@ public class HomeBar : MonoBehaviour
     }
     public void DeactiveHome()
     {
+        AudioManager.instance.Play("CloseTendina");
         Home.transform.DOMove(new Vector3(-(EndValueActivate.transform.position.x * 425), Home.transform.position.y, Home.transform.position.z), TranslateTimeDeactivate);
         isActive = false;
         StartCoroutine(DeactiveThings());

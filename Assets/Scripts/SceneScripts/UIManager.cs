@@ -82,6 +82,7 @@ public class UIManager : MonoBehaviour
 
     public void GoToPlay()
     {
+        PlayerPrefs.SetInt("BlockOut", 1);
         AudioManager.instance.Play("BottoneEnter");
         MenuPanel.SetActive(false);
         MapPanel.SetActive(true);

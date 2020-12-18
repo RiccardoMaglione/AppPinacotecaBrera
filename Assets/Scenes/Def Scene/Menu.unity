@@ -2258,6 +2258,16 @@ MonoBehaviour:
     volume: 1
     loop: 1
     source: {fileID: 0}
+  - name: CloseTendina
+    clip: {fileID: 8300000, guid: 1205e7728e8bc3644bd60a011f361908, type: 3}
+    volume: 0.5
+    loop: 0
+    source: {fileID: 0}
+  - name: OpenTendina
+    clip: {fileID: 8300000, guid: fa04c85549097a844a0ca3ad0e04b924, type: 3}
+    volume: 0.8
+    loop: 0
+    source: {fileID: 0}
 --- !u!4 &507729897
 Transform:
   m_ObjectHideFlags: 0
@@ -4638,7 +4648,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 39.25
+  m_fontSize: 37.4
   m_fontSizeBase: 39
   m_fontWeight: 400
   m_enableAutoSizing: 1
