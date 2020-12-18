@@ -4638,7 +4638,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 36.45
+  m_fontSize: 39.25
   m_fontSizeBase: 39
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -5928,6 +5928,7 @@ GameObject:
   - component: {fileID: 1102012366}
   - component: {fileID: 1102012365}
   - component: {fileID: 1102012367}
+  - component: {fileID: 1102012368}
   m_Layer: 5
   m_Name: RightArrowImage
   m_TagString: Untagged
@@ -5993,6 +5994,25 @@ CanvasRenderer:
   m_GameObject: {fileID: 1102012363}
   m_CullTransparentMesh: 0
 --- !u!114 &1102012367
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1102012363}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 19b48197ab6269c45b412cc2de5edd3f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  xVec3: 0.2
+  yVec3: 0.2
+  zVec3: 0.2
+  WaitTime: 5
+  Duration: 0.5
+  NumLoops: 0
+  isYoyo: 1
+--- !u!114 &1102012368
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -8246,6 +8266,7 @@ GameObject:
   - component: {fileID: 1562060731}
   - component: {fileID: 1562060730}
   - component: {fileID: 1562060734}
+  - component: {fileID: 1562060735}
   m_Layer: 5
   m_Name: InfoMenuLeft (1)
   m_TagString: Untagged
@@ -8381,6 +8402,25 @@ CanvasRenderer:
   m_GameObject: {fileID: 1562060728}
   m_CullTransparentMesh: 0
 --- !u!114 &1562060734
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1562060728}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 19b48197ab6269c45b412cc2de5edd3f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  xVec3: 0.2
+  yVec3: 0.2
+  zVec3: 0.2
+  WaitTime: 5
+  Duration: 0.5
+  NumLoops: 0
+  isYoyo: 1
+--- !u!114 &1562060735
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -11397,6 +11437,7 @@ GameObject:
   - component: {fileID: 1988662602}
   - component: {fileID: 1988662601}
   - component: {fileID: 1988662603}
+  - component: {fileID: 1988662604}
   m_Layer: 5
   m_Name: LeftArrowImage
   m_TagString: Untagged
@@ -11462,6 +11503,25 @@ CanvasRenderer:
   m_GameObject: {fileID: 1988662599}
   m_CullTransparentMesh: 0
 --- !u!114 &1988662603
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1988662599}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 19b48197ab6269c45b412cc2de5edd3f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  xVec3: 0.2
+  yVec3: 0.2
+  zVec3: 0.2
+  WaitTime: 5
+  Duration: 0.5
+  NumLoops: 0
+  isYoyo: 1
+--- !u!114 &1988662604
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
