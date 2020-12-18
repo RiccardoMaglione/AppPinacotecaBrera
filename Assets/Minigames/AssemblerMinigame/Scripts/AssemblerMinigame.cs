@@ -41,7 +41,7 @@ namespace Brera.Minigames.AssemblerPuzzle
         }
         IEnumerator Stanza3()
         {
-            yield return new WaitForSeconds(2);           
+            yield return new WaitForSeconds(1);           
             UIManager.instance.GoToCompletedKissPanel();
         }
         #endregion
