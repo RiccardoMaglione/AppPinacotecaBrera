@@ -2317,8 +2317,24 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7509007508357396932, guid: a51d7f0252f1eee48b0090e03ec0f2f2, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1007027061}
+    - target: {fileID: 7509007508357396932, guid: a51d7f0252f1eee48b0090e03ec0f2f2, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
       value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 7509007508357396932, guid: a51d7f0252f1eee48b0090e03ec0f2f2, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: GoToIta
+      objectReference: {fileID: 0}
+    - target: {fileID: 7509007508357396932, guid: a51d7f0252f1eee48b0090e03ec0f2f2, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: UIManager, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 7509007508357396932, guid: a51d7f0252f1eee48b0090e03ec0f2f2, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
     - target: {fileID: 7509007508429966921, guid: a51d7f0252f1eee48b0090e03ec0f2f2, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
@@ -4467,7 +4483,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 37.4
+  m_fontSize: 39.25
   m_fontSizeBase: 39
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -5564,6 +5580,7 @@ MonoBehaviour:
   completedLightMinigamePanel: {fileID: 0}
   itaPanel: {fileID: 984082301}
   engPanel: {fileID: 1049661119}
+  Manina: {fileID: 0}
 --- !u!1 &1029791810
 GameObject:
   m_ObjectHideFlags: 0
@@ -7844,7 +7861,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7509007508357396932, guid: a51d7f0252f1eee48b0090e03ec0f2f2, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7509007508357396932, guid: a51d7f0252f1eee48b0090e03ec0f2f2, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
@@ -7853,10 +7870,22 @@ PrefabInstance:
     - target: {fileID: 7509007508357396932, guid: a51d7f0252f1eee48b0090e03ec0f2f2, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 1634612907}
+      objectReference: {fileID: 1634612909}
     - target: {fileID: 7509007508357396932, guid: a51d7f0252f1eee48b0090e03ec0f2f2, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
       value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 7509007508357396932, guid: a51d7f0252f1eee48b0090e03ec0f2f2, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: GoToEng
+      objectReference: {fileID: 0}
+    - target: {fileID: 7509007508357396932, guid: a51d7f0252f1eee48b0090e03ec0f2f2, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: UIManager, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 7509007508357396932, guid: a51d7f0252f1eee48b0090e03ec0f2f2, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
     - target: {fileID: 7509007508429966920, guid: a51d7f0252f1eee48b0090e03ec0f2f2, type: 3}
       propertyPath: m_Pivot.x
@@ -8670,6 +8699,7 @@ MonoBehaviour:
   completedLightMinigamePanel: {fileID: 0}
   itaPanel: {fileID: 984082301}
   engPanel: {fileID: 1049661119}
+  Manina: {fileID: 0}
 --- !u!114 &1634612910
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11705,6 +11735,18 @@ MonoBehaviour:
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 0}
+        m_TargetAssemblyTypeName: MapWarp, Assembly-CSharp
+        m_MethodName: 
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: 
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 

@@ -7,6 +7,7 @@ public class LightMGThird : MonoBehaviour
     public GameObject[] PiecesImages;
     public GameObject CompletePanel;
     public GameObject MiniGamePanel;
+    public GameObject ButtonsPanel;
 
     private void Update()
     {
@@ -14,6 +15,7 @@ public class LightMGThird : MonoBehaviour
         {
             //PlayerPrefs.SetInt("Light", 1);
             MiniGamePanel.SetActive(false);
+            ButtonsPanel.SetActive(false);
             CompletePanel.SetActive(true);
         }
     }

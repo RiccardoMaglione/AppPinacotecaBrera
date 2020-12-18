@@ -214,7 +214,6 @@ public class UIManager : MonoBehaviour
         int varLight = PlayerPrefs.GetInt("Light");
         PlayerPrefs.SetInt("Light", varLight);
     }
-
     public void GoToBadge()
     {
         StatsInStatsPanel.SetActive(false);
@@ -224,5 +223,15 @@ public class UIManager : MonoBehaviour
     {
         StatsInStatsPanel.SetActive(false);
         PaintingsPanel.SetActive(true);
+    }
+    public void GoToEng()
+    {
+        itaPanel.SetActive(false);
+        engPanel.SetActive(true);
+    }
+    public void GoToIta()
+    {
+        engPanel.SetActive(false);
+        itaPanel.SetActive(true);
     }
 }
