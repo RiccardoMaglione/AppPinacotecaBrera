@@ -6,7 +6,7 @@ public class CompletedPuzzle : MonoBehaviour
 {
     public GameObject[] DeactiveObject;
 
-    void Start()
+    void Update()
     {
         if(PlayerPrefs.GetInt("PuzzleCompleted") == 1)
         {
