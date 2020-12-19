@@ -7,6 +7,8 @@ public class ResetPlayer : MonoBehaviour
     [MenuItem("Edit/Reset Peppino")]
     static void ResetPrefs()
     {
+        PlayerPrefs.SetString("Nickname", "Player's Name");
+        PlayerPrefs.SetInt("NicknameControl", 0);
         PlayerPrefs.SetInt("Luca", 0);
         PlayerPrefs.SetInt("Puzzle", 0);
         PlayerPrefs.SetInt("Light", 0);
