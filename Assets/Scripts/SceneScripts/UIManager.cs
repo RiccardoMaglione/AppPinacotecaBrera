@@ -28,6 +28,9 @@ public class UIManager : MonoBehaviour
 
     public static UIManager instance;
 
+    public GameObject inGameKissPanel;
+    public GameObject storyPanel;
+
     public static bool Warp1;
     public static bool Warp2;
     public static bool Warp3;
@@ -214,6 +217,13 @@ public class UIManager : MonoBehaviour
         PlayerPrefs.SetInt("Puzzle", varPuzzle);
         int varLight = PlayerPrefs.GetInt("Light");
         PlayerPrefs.SetInt("Light", varLight);
+    }
+    public void GoToStoryPanel()
+    {
+        completedKissMinigamePanel.SetActive(false);
+        kissFullscreenPanel.SetActive(false);
+        storyPanel.SetActive(true);
+        inGameKissPanel.SetActive(true);
     }
     public void GoToBadge()
     {
