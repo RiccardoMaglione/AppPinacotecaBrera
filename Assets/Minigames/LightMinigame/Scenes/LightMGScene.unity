@@ -333,7 +333,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -58, y: -130}
+  m_AnchoredPosition: {x: -50, y: -130}
   m_SizeDelta: {x: 192.94312, y: 117.84784}
   m_Pivot: {x: 1, y: 1}
 --- !u!114 &70854526
@@ -561,7 +561,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "TITOLO\r\nCena in Emmaus\r\n\r\nAUTORE\r\nCaravaggio (Michelangelo Merisi)\r\n\r\nDATA\r\n1606\r\nCaravaggio
+  m_text: "TITOLO\r\nCena in Emmaus\r\n\r\nAUTORE\r\nCaravaggio (Michelangelo Merisi)\r\n\r\nDATA\r\n1606\r\n\n\nCaravaggio
     dipinse la Cena in Emmaus tra il 1605 e il 1606, probabilmente a Paliano, feudo
     dei Colonna, presso i quali si era rifugiato dopo aver ucciso Ranuccio Tomassoni,
     prima della fuga definitiva da Roma seguita alla condanna; riusc\xEC a venderla,
@@ -878,7 +878,7 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1685372236}
-  - {fileID: 2048841860}
+  - {fileID: 654160771}
   - {fileID: 70854525}
   - {fileID: 2002827933}
   - {fileID: 7726543558330437011}
@@ -1169,6 +1169,112 @@ CanvasRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 570221745}
+  m_CullTransparentMesh: 0
+--- !u!1 &654160770
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 654160771}
+  - component: {fileID: 654160775}
+  - component: {fileID: 654160774}
+  - component: {fileID: 654160773}
+  - component: {fileID: 654160772}
+  m_Layer: 5
+  m_Name: Frame
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &654160771
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 654160770}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 17.96237, y: 25.506569, z: 17.96237}
+  m_Children:
+  - {fileID: 2048841860}
+  m_Father: {fileID: 225325109}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 62.064774, y: 37.794724}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &654160772
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 654160770}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 52cbae14837af534986925e5d169a14d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &654160773
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 654160770}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 04dc8f4fda4b15b4d9fc97348e0ea285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  time: 2
+  type: 1
+  direction: 1550
+  Manina: {fileID: 0}
+--- !u!114 &654160774
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 654160770}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0.4811321, g: 0.3491566, b: 0, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 10907, guid: 0000000000000000f000000000000000, type: 0}
+  m_Type: 1
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &654160775
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 654160770}
   m_CullTransparentMesh: 0
 --- !u!1 &665657847
 GameObject:
@@ -3948,7 +4054,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   time: 2
   type: 1
-  direction: 400
+  direction: 200
   Manina: {fileID: 0}
 --- !u!114 &2002827935
 MonoBehaviour:
@@ -4029,7 +4135,6 @@ GameObject:
   - component: {fileID: 2048841860}
   - component: {fileID: 2048841862}
   - component: {fileID: 2048841861}
-  - component: {fileID: 2048841863}
   - component: {fileID: 2048841864}
   m_Layer: 5
   m_Name: Completed Image
@@ -4047,11 +4152,11 @@ RectTransform:
   m_GameObject: {fileID: 2048841859}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 9, y: 12.779998, z: 9}
+  m_LocalScale: {x: 0.50104743, y: 0.5010473, z: 0.50104743}
   m_Children:
   - {fileID: 1067263804}
-  m_Father: {fileID: 225325109}
-  m_RootOrder: 1
+  m_Father: {fileID: 654160771}
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -4096,22 +4201,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2048841859}
   m_CullTransparentMesh: 0
---- !u!114 &2048841863
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2048841859}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 04dc8f4fda4b15b4d9fc97348e0ea285, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  time: 2
-  type: 1
-  direction: 2100
-  Manina: {fileID: 7726543558330437008}
 --- !u!114 &2048841864
 MonoBehaviour:
   m_ObjectHideFlags: 0

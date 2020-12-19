@@ -13,5 +13,7 @@ public class ResetPlayer : MonoBehaviour
         PlayerPrefs.SetInt("Puzzle", 0);
         PlayerPrefs.SetInt("Light", 0);
         PlayerPrefs.SetInt("PuzzleCompleted", 0);
+        PlayerPrefs.SetInt("Ring", 0);
+        PlayerPrefs.SetInt("LightDoor", 0);
     }
 }

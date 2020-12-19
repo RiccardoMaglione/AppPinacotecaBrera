@@ -349,6 +349,8 @@ MonoBehaviour:
   completedLightMinigamePanel: {fileID: 0}
   itaPanel: {fileID: 0}
   engPanel: {fileID: 0}
+  inGameKissPanel: {fileID: 0}
+  storyPanel: {fileID: 0}
   Manina: {fileID: 577548545}
 --- !u!4 &72160992
 Transform:
@@ -701,7 +703,7 @@ MonoBehaviour:
   m_FontData:
     m_Font: {fileID: 12800000, guid: 7e5568f3f8ff9dd4cb8b4e8676b5308f, type: 3}
     m_FontSize: 50
-    m_FontStyle: 0
+    m_FontStyle: 1
     m_BestFit: 0
     m_MinSize: 10
     m_MaxSize: 50
@@ -1616,7 +1618,7 @@ MonoBehaviour:
   m_FontData:
     m_Font: {fileID: 12800000, guid: 7e5568f3f8ff9dd4cb8b4e8676b5308f, type: 3}
     m_FontSize: 50
-    m_FontStyle: 0
+    m_FontStyle: 1
     m_BestFit: 0
     m_MinSize: 10
     m_MaxSize: 50
@@ -1742,8 +1744,8 @@ RectTransform:
   m_Father: {fileID: 386044205}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0.78902996}
-  m_AnchorMax: {x: 1, y: 0.9999999}
+  m_AnchorMin: {x: 0, y: 0.7890301}
+  m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 20, y: 20}
   m_Pivot: {x: 0.5, y: 0.5}
@@ -3069,7 +3071,7 @@ MonoBehaviour:
   m_FontData:
     m_Font: {fileID: 12800000, guid: 7e5568f3f8ff9dd4cb8b4e8676b5308f, type: 3}
     m_FontSize: 50
-    m_FontStyle: 0
+    m_FontStyle: 1
     m_BestFit: 0
     m_MinSize: 10
     m_MaxSize: 50
@@ -3169,7 +3171,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 804415411}
   m_HandleRect: {fileID: 804415410}
   m_Direction: 2
-  m_Value: 0.9999999
+  m_Value: 1
   m_Size: 0.21096994
   m_NumberOfSteps: 0
   m_OnValueChanged:
@@ -4200,7 +4202,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7726543557242836926, guid: 6c33a4ce6c455974d866ed5f754ba2ba, type: 3}
       propertyPath: m_RootOrder
-      value: 4
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 7726543557242836926, guid: 6c33a4ce6c455974d866ed5f754ba2ba, type: 3}
       propertyPath: m_AnchorMax.x
