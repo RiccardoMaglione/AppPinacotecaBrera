@@ -35,7 +35,7 @@ namespace Brera.Minigames.AssemblerPuzzle
                 _slots[9].Filled)
             {
                 PlayerPrefs.SetInt("Puzzle", 1);
-                PlayerPrefs.SetInt("Quest", PlayerPrefs.GetInt("Quest", 0) + 1);
+                PlayerPrefs.SetInt("Light", 1);
                 StartCoroutine(Stanza3());         
             }
 

@@ -13,8 +13,8 @@ public class LightMGThird : MonoBehaviour
     {
         if(PiecesImages[0].activeInHierarchy && PiecesImages[1].activeInHierarchy && PiecesImages[2].activeInHierarchy && PiecesImages[3].activeInHierarchy)
         {
-            //PlayerPrefs.SetInt("Light", 1);
-            PlayerPrefs.SetInt("Quest", PlayerPrefs.GetInt("Quest", 0) + 1);
+            //PlayerPrefs.SetInt("", 1);
+            PlayerPrefs.SetInt("Light", 1);
             MiniGamePanel.SetActive(false);
             ButtonsPanel.SetActive(false);
             CompletePanel.SetActive(true);
