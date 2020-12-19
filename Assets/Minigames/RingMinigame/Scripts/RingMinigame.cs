@@ -48,6 +48,7 @@ namespace Brera.Minigames.AssemblerPuzzle
             )
             {
                 PlayerPrefs.SetInt("Luca", 1);
+                PlayerPrefs.SetInt("Quest", PlayerPrefs.GetInt("Quest", 0) + 1);
                 UIManager.instance.GoToCompletedRingsPanel();
             }
         }
