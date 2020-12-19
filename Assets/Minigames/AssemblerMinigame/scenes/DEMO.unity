@@ -3911,7 +3911,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 1032113065}
         m_TargetAssemblyTypeName: UIManager, Assembly-CSharp
-        m_MethodName: WarpPicture3
+        m_MethodName: GoToFullscreenKissPanel
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -4837,8 +4837,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 1080, y: 1209.2396}
+  m_AnchoredPosition: {x: 1.8, y: 0}
+  m_SizeDelta: {x: 1003.60815, y: 1209.2396}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1411937073
 MonoBehaviour:
@@ -4864,7 +4864,7 @@ MonoBehaviour:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
     m_FontSize: 52
     m_FontStyle: 0
-    m_BestFit: 0
+    m_BestFit: 1
     m_MinSize: 10
     m_MaxSize: 121
     m_Alignment: 0
@@ -5506,7 +5506,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1643392480
 RectTransform:
   m_ObjectHideFlags: 0

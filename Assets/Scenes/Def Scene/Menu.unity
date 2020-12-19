@@ -1480,7 +1480,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &282513979
 RectTransform:
   m_ObjectHideFlags: 0
@@ -5107,7 +5107,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 37.4
+  m_fontSize: 36.4
   m_fontSizeBase: 39
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -6235,6 +6235,8 @@ MonoBehaviour:
   completedLightMinigamePanel: {fileID: 0}
   itaPanel: {fileID: 984082301}
   engPanel: {fileID: 1049661119}
+  inGameKissPanel: {fileID: 0}
+  storyPanel: {fileID: 0}
   Manina: {fileID: 0}
 --- !u!1 &1029791810
 GameObject:
@@ -9594,6 +9596,8 @@ MonoBehaviour:
   completedLightMinigamePanel: {fileID: 0}
   itaPanel: {fileID: 984082301}
   engPanel: {fileID: 1049661119}
+  inGameKissPanel: {fileID: 0}
+  storyPanel: {fileID: 0}
   Manina: {fileID: 0}
 --- !u!114 &1634612910
 MonoBehaviour:
@@ -10389,6 +10393,18 @@ PrefabInstance:
     - target: {fileID: 6169414764066957239, guid: 352ae1a99ee43b24b943717785bbd163, type: 3}
       propertyPath: m_AnchoredPosition.x
       value: 610.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6928003059547066138, guid: 352ae1a99ee43b24b943717785bbd163, type: 3}
+      propertyPath: m_FontData.m_Alignment
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 7662452820401728469, guid: 352ae1a99ee43b24b943717785bbd163, type: 3}
+      propertyPath: m_FontData.m_Alignment
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 7702212784592229729, guid: 352ae1a99ee43b24b943717785bbd163, type: 3}
+      propertyPath: m_FontData.m_Alignment
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 8232379569350849315, guid: 352ae1a99ee43b24b943717785bbd163, type: 3}
       propertyPath: m_SizeDelta.x
@@ -12181,6 +12197,11 @@ MonoBehaviour:
   button2Eng: {fileID: 597514757}
   button3: {fileID: 1814603548}
   button3Eng: {fileID: 1602105186}
+  doorRing: {fileID: 0}
+  doorLight: {fileID: 0}
+  doorLight2: {fileID: 0}
+  doorLight3: {fileID: 0}
+  doorKiss: {fileID: 0}
 --- !u!4 &1982030795
 Transform:
   m_ObjectHideFlags: 0
@@ -12749,7 +12770,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &2040690773
 RectTransform:
   m_ObjectHideFlags: 0
@@ -12757,7 +12778,7 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2040690772}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
@@ -12785,7 +12806,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 0, g: 0, b: 0, a: 0.7058824}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -13880,6 +13901,18 @@ PrefabInstance:
     - target: {fileID: 6269705751648139870, guid: 352ae1a99ee43b24b943717785bbd163, type: 3}
       propertyPath: m_AnchoredPosition.x
       value: 650.1659
+      objectReference: {fileID: 0}
+    - target: {fileID: 6928003059547066138, guid: 352ae1a99ee43b24b943717785bbd163, type: 3}
+      propertyPath: m_FontData.m_Alignment
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 7662452820401728469, guid: 352ae1a99ee43b24b943717785bbd163, type: 3}
+      propertyPath: m_FontData.m_Alignment
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 7702212784592229729, guid: 352ae1a99ee43b24b943717785bbd163, type: 3}
+      propertyPath: m_FontData.m_Alignment
+      value: 4
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 352ae1a99ee43b24b943717785bbd163, type: 3}

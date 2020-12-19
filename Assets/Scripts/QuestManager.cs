@@ -20,8 +20,6 @@ public class QuestManager : MonoBehaviour
     {
         if (instance == null)
             instance = this;
-        
-        DontDestroyOnLoad(gameObject);
     }
 
     void Update()
