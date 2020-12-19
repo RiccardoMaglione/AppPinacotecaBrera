@@ -17,7 +17,7 @@ public class DoorManager : MonoBehaviour
             doorLight2.SetActive(true);
         }
 
-        if (PlayerPrefs.GetInt("Light", 0) == 1)
+        if (PlayerPrefs.GetInt("LightDoor", 0) == 1)
         {
             doorRing.SetActive(true);
             doorLight1.SetActive(true);

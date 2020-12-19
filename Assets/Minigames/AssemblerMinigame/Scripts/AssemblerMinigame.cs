@@ -36,7 +36,9 @@ namespace Brera.Minigames.AssemblerPuzzle
             {
                 PlayerPrefs.SetInt("Puzzle", 1);
                 PlayerPrefs.SetInt("Light", 1);
-                StartCoroutine(Stanza3());         
+                PlayerPrefs.SetInt("LightDoor", 1);
+                if(PlayerPrefs.GetInt("PuzzleCompleted") == 0)
+                    StartCoroutine(Stanza3());         
             }
 
         }
@@ -44,6 +46,7 @@ namespace Brera.Minigames.AssemblerPuzzle
         {
             yield return new WaitForSeconds(1);           
             UIManager.instance.GoToStoryPanel();
+            PlayerPrefs.SetInt("PuzzleCompleted", 1);
         }
         #endregion
     }

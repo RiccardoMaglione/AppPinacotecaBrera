@@ -12,5 +12,6 @@ public class ResetPlayer : MonoBehaviour
         PlayerPrefs.SetInt("Luca", 0);
         PlayerPrefs.SetInt("Puzzle", 0);
         PlayerPrefs.SetInt("Light", 0);
+        PlayerPrefs.SetInt("PuzzleCompleted", 0);
     }
 }

@@ -8,6 +8,7 @@ public class LightMGThird : MonoBehaviour
     public GameObject CompletePanel;
     public GameObject MiniGamePanel;
     public GameObject ButtonsPanel;
+    public GameObject BackButton;
 
     private void Update()
     {
@@ -15,9 +16,11 @@ public class LightMGThird : MonoBehaviour
         {
             //PlayerPrefs.SetInt("", 1);
             PlayerPrefs.SetInt("Light", 1);
+            PlayerPrefs.SetInt("LightDoor", 1);
             MiniGamePanel.SetActive(false);
             ButtonsPanel.SetActive(false);
             CompletePanel.SetActive(true);
+            BackButton.SetActive(false);
         }
     }
     public void ButtonOne()

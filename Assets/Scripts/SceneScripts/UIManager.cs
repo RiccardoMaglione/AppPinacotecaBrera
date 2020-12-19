@@ -60,6 +60,14 @@ public class UIManager : MonoBehaviour
         SaveStatusMinigame();
     }
 
+    private void Start()
+    {
+        if (PlayerPrefs.GetInt("Puzzle") == 1)
+        {
+            GoToStoryPanel();
+        }
+    }
+
     private void Update()
     {
         if (PlayerPrefs.GetInt("Luca") == 1)
@@ -67,14 +75,14 @@ public class UIManager : MonoBehaviour
             GoToCompletedRingsPanel();
         }
 
-        if (PlayerPrefs.GetInt("Puzzle") == 1)
-        {
-            GoToCompletedKissPanel();
-        }
+        //if (PlayerPrefs.GetInt("Puzzle") == 1)
+        //{
+        //    GoToStoryPanel();
+        //}
         
         if (PlayerPrefs.GetInt("Light") == 1)
         {
-            GoToCompletedRingsPanel();
+            GoToCompletedLightPanel();
         }
     }
 
@@ -181,33 +189,77 @@ public class UIManager : MonoBehaviour
     }
     public void GoToCompletedRingsPanel()
     {
-        ringsFullscreenPanel.SetActive(false);
-        completedRingMinigamePanel.SetActive(true);
+        if(ringsFullscreenPanel != null)
+        {
+            ringsFullscreenPanel.SetActive(false);
+        }
+        if (completedRingMinigamePanel != null)
+        {
+            completedRingMinigamePanel.SetActive(true);
+        }
     }
     public void GoToFullscreenRingsPanel()
     {
-        ringsFullscreenPanel.SetActive(true);
-        completedRingMinigamePanel.SetActive(false);
+        if(ringsFullscreenPanel != null)
+        {
+            ringsFullscreenPanel.SetActive(true);
+        }
+        if (completedRingMinigamePanel)
+        {
+            completedRingMinigamePanel.SetActive(false);
+        }
     }
     public void GoToCompletedKissPanel()
     {
-        kissFullscreenPanel.SetActive(false);
-        completedKissMinigamePanel.SetActive(true);
+        if (kissFullscreenPanel != null)
+        {
+            kissFullscreenPanel.SetActive(false);
+        }
+        if (completedKissMinigamePanel != null)
+        {
+            completedKissMinigamePanel.SetActive(true);
+        }
+        if (storyPanel != null)
+        {
+            storyPanel.SetActive(false);
+        }
     }
     public void GoToFullscreenKissPanel()
     {
-        kissFullscreenPanel.SetActive(true);
-        completedKissMinigamePanel.SetActive(false);
+        if(kissFullscreenPanel != null)
+        {
+            kissFullscreenPanel.SetActive(true);
+        }
+        if(storyPanel != null)
+        {
+            storyPanel.SetActive(false);
+        }
+        if (completedKissMinigamePanel != null)
+        {
+            completedKissMinigamePanel.SetActive(false);
+        }
     }
     public void GoToCompletedLightPanel()
     {
-        lightsFullscreenPanel.SetActive(false);
-        completedLightMinigamePanel.SetActive(true);
+        if(lightsFullscreenPanel != null)
+        {
+            lightsFullscreenPanel.SetActive(false);
+        }
+        if(completedLightMinigamePanel != null)
+        {
+            completedLightMinigamePanel.SetActive(true);
+        }
     }
     public void GoToFullscreenLightPanel()
     {
-        lightsFullscreenPanel.SetActive(true);
-        completedLightMinigamePanel.SetActive(false);
+        if (lightsFullscreenPanel != null)
+        {
+            lightsFullscreenPanel.SetActive(true);
+        }
+        if (completedLightMinigamePanel != null)
+        {
+            completedLightMinigamePanel.SetActive(false);
+        }
     }
     public void SaveStatusMinigame()
     {
@@ -220,10 +272,22 @@ public class UIManager : MonoBehaviour
     }
     public void GoToStoryPanel()
     {
-        completedKissMinigamePanel.SetActive(false);
-        kissFullscreenPanel.SetActive(false);
-        storyPanel.SetActive(true);
-        inGameKissPanel.SetActive(true);
+        if (completedKissMinigamePanel != null)
+        {
+            completedKissMinigamePanel.SetActive(false);
+        }
+        if (kissFullscreenPanel != null)
+        {
+            kissFullscreenPanel.SetActive(false);
+        }
+        if (storyPanel != null)
+        {
+            storyPanel.SetActive(true);
+        }
+        if (inGameKissPanel != null)
+        {
+            inGameKissPanel.SetActive(false);
+        }
     }
     public void GoToBadge()
     {

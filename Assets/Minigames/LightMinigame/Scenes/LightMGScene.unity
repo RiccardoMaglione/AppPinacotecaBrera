@@ -3064,7 +3064,7 @@ MonoBehaviour:
   m_HandleRect: {fileID: 1196358529}
   m_Direction: 2
   m_Value: 1
-  m_Size: 0.37601924
+  m_Size: 0.37601927
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:
@@ -3767,6 +3767,7 @@ MonoBehaviour:
   CompletePanel: {fileID: 225325106}
   MiniGamePanel: {fileID: 1332616008}
   ButtonsPanel: {fileID: 1997999717}
+  BackButton: {fileID: 722489967}
 --- !u!4 &1982738802
 Transform:
   m_ObjectHideFlags: 0
@@ -3805,10 +3806,12 @@ MonoBehaviour:
   completedRingMinigamePanel: {fileID: 0}
   kissFullscreenPanel: {fileID: 0}
   completedKissMinigamePanel: {fileID: 0}
-  lightsFullscreenPanel: {fileID: 225325106}
-  completedLightMinigamePanel: {fileID: 1644529277}
+  lightsFullscreenPanel: {fileID: 1644529277}
+  completedLightMinigamePanel: {fileID: 225325106}
   itaPanel: {fileID: 0}
   engPanel: {fileID: 0}
+  inGameKissPanel: {fileID: 0}
+  storyPanel: {fileID: 0}
   Manina: {fileID: 0}
 --- !u!1 &1997999717
 GameObject:

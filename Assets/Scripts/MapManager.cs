@@ -12,7 +12,7 @@ public class MapManager : MonoBehaviour
     void Awake()
     {
         //PlayerPrefs.SetInt("Ring", 0);
-        //PlayerPrefs.SetInt("Light", 0);
+        //PlayerPrefs.SetInt("LightDoor", 0);
     }
 
     void Update()
@@ -31,7 +31,7 @@ public class MapManager : MonoBehaviour
             button2Eng.SetActive(true);
         }
 
-        if (PlayerPrefs.GetInt("Light", 0) == 1)
+        if (PlayerPrefs.GetInt("LightDoor", 0) == 1)
         {
             button1.SetActive(true);
             button1Eng.SetActive(true);
