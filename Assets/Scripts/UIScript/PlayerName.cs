@@ -27,6 +27,7 @@ public class PlayerName : MonoBehaviour
             PlayerPrefs.SetInt("NicknameControl", 1);
             MenuPanel.SetActive(true);
             NamePanel.SetActive(false);
+            PlayerPrefs.SetInt("FirstBadge", 1);
         }
     }
 }

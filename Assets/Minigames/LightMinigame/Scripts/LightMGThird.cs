@@ -17,6 +17,7 @@ public class LightMGThird : MonoBehaviour
             //PlayerPrefs.SetInt("", 1);
             PlayerPrefs.SetInt("Light", 1);
             PlayerPrefs.SetInt("LightDoor", 1);
+            PlayerPrefs.SetInt("LightImage", 1);
             MiniGamePanel.SetActive(false);
             ButtonsPanel.SetActive(false);
             CompletePanel.SetActive(true);

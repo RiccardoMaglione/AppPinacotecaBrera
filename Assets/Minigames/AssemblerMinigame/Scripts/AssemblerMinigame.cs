@@ -47,6 +47,7 @@ namespace Brera.Minigames.AssemblerPuzzle
             yield return new WaitForSeconds(1);           
             UIManager.instance.GoToStoryPanel();
             PlayerPrefs.SetInt("PuzzleCompleted", 1);
+            PlayerPrefs.SetInt("BadgeFinal", 1);
         }
         #endregion
     }
