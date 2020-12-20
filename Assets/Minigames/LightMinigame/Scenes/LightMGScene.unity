@@ -4055,7 +4055,7 @@ MonoBehaviour:
   time: 2
   type: 1
   direction: 180
-  Manina: {fileID: 0}
+  Manina: {fileID: 7726543558330437008}
 --- !u!114 &2002827935
 MonoBehaviour:
   m_ObjectHideFlags: 0

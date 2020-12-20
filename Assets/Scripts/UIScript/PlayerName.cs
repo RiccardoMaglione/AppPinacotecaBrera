@@ -22,6 +22,7 @@ public class PlayerName : MonoBehaviour
     {
         if (PlayerPrefs.GetInt("NicknameControl") == 0)
         {
+            AudioManager.instance.Play("BottoneEnter");
             PlayerPrefs.SetString("Nickname", TextName.text.ToString());
             print(PlayerPrefs.GetString("Nickname"));
             PlayerPrefs.SetInt("NicknameControl", 1);
