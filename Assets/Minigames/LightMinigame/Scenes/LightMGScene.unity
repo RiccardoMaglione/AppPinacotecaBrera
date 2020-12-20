@@ -462,7 +462,7 @@ RectTransform:
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 1, y: 1}
+  m_AnchorMax: {x: 0.99999994, y: 1}
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 20, y: 20}
   m_Pivot: {x: 0.5, y: 0.5}
@@ -1208,7 +1208,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 62.064774, y: 37.794724}
+  m_SizeDelta: {x: 60.12567, y: 37.794678}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &654160772
 MonoBehaviour:
@@ -1229,7 +1229,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 654160770}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 04dc8f4fda4b15b4d9fc97348e0ea285, type: 3}
   m_Name: 
@@ -2813,7 +2813,7 @@ MonoBehaviour:
   m_HandleRect: {fileID: 79015179}
   m_Direction: 0
   m_Value: 0
-  m_Size: 1
+  m_Size: 0.99999994
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:
@@ -3957,8 +3957,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: -100.3999}
+  m_SizeDelta: {x: 0, y: -200.73364}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1997999719
 MonoBehaviour:
@@ -4035,11 +4035,11 @@ RectTransform:
   m_Father: {fileID: 225325109}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 1, y: 0}
-  m_AnchoredPosition: {x: -0.6064453, y: -759}
-  m_SizeDelta: {x: -114.78674, y: 731.266}
-  m_Pivot: {x: 0.5, y: 0}
+  m_AnchorMin: {x: 1, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: -57.999817, y: -1563.367}
+  m_SizeDelta: {x: 965.21326, y: -1608.734}
+  m_Pivot: {x: 1, y: 0.5}
 --- !u!114 &2002827934
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4054,7 +4054,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   time: 2
   type: 1
-  direction: 200
+  direction: 180
   Manina: {fileID: 0}
 --- !u!114 &2002827935
 MonoBehaviour:
@@ -4453,7 +4453,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 180, y: 0, z: 90}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 247, y: -450}
+  m_AnchoredPosition: {x: 243, y: -747}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!320 &7726543558330437012

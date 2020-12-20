@@ -367,7 +367,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Choose a room, tap it and discover the mysteries inside it !
+  m_Text: Zoom, choose a room, tap it and discover the mysteries inside it !
 --- !u!114 &114129276
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1246,8 +1246,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0}
   m_AnchorMax: {x: 0.5, y: 0}
-  m_AnchoredPosition: {x: 0, y: 200}
-  m_SizeDelta: {x: 760, y: 130}
+  m_AnchoredPosition: {x: 0, y: 140}
+  m_SizeDelta: {x: 760, y: 225.42493}
   m_Pivot: {x: 0.5, y: 0}
 --- !u!114 &209356832
 MonoBehaviour:
@@ -1297,7 +1297,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Scegli una stanza, cliccaci sopra e scopri i misteri al suo interno!
+  m_Text: Zomma, scegli una stanza e cliccaci sopra. Scopri i misteri al suo interno!
 --- !u!222 &209356834
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1480,7 +1480,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &282513979
 RectTransform:
   m_ObjectHideFlags: 0
@@ -6249,6 +6249,7 @@ GameObject:
   - component: {fileID: 1029791811}
   - component: {fileID: 1029791813}
   - component: {fileID: 1029791812}
+  - component: {fileID: 1029791814}
   m_Layer: 0
   m_Name: MapPanel
   m_TagString: Untagged
@@ -6316,6 +6317,21 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1029791810}
   m_CullTransparentMesh: 0
+--- !u!114 &1029791814
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1029791810}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 729001eebb3d7b04c9738c4cf8051efa, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  zoomOutMin: 1
+  zoomOutMax: 8
+  ImageMap: {fileID: 1029791810}
 --- !u!1 &1049661119
 GameObject:
   m_ObjectHideFlags: 0
@@ -7669,7 +7685,7 @@ MonoBehaviour:
   m_FontData:
     m_Font: {fileID: 12800000, guid: 7e5568f3f8ff9dd4cb8b4e8676b5308f, type: 3}
     m_FontSize: 14
-    m_FontStyle: 0
+    m_FontStyle: 1
     m_BestFit: 1
     m_MinSize: 10
     m_MaxSize: 72
@@ -10559,6 +10575,7 @@ GameObject:
   - component: {fileID: 1737612356}
   - component: {fileID: 1737612358}
   - component: {fileID: 1737612357}
+  - component: {fileID: 1737612359}
   m_Layer: 0
   m_Name: MapPanel
   m_TagString: Untagged
@@ -10626,6 +10643,21 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1737612355}
   m_CullTransparentMesh: 0
+--- !u!114 &1737612359
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1737612355}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 729001eebb3d7b04c9738c4cf8051efa, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  zoomOutMin: 1
+  zoomOutMax: 8
+  ImageMap: {fileID: 1737612355}
 --- !u!1 &1740379042
 GameObject:
   m_ObjectHideFlags: 0
@@ -11934,6 +11966,7 @@ GameObject:
   - component: {fileID: 1934381611}
   - component: {fileID: 1934381610}
   - component: {fileID: 1934381609}
+  - component: {fileID: 1934381612}
   m_Layer: 5
   m_Name: ArrowButton
   m_TagString: Untagged
@@ -12055,6 +12088,25 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1934381607}
   m_CullTransparentMesh: 0
+--- !u!114 &1934381612
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1934381607}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 19b48197ab6269c45b412cc2de5edd3f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  xVec3: 0.2
+  yVec3: 0.2
+  zVec3: 0.2
+  WaitTime: 5
+  Duration: 0.5
+  NumLoops: 0
+  isYoyo: 1
 --- !u!1 &1938112641
 GameObject:
   m_ObjectHideFlags: 0
@@ -12765,7 +12817,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &2040690773
 RectTransform:
   m_ObjectHideFlags: 0
@@ -14203,7 +14255,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 38.6
+  m_fontSize: 39.25
   m_fontSizeBase: 39
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -14313,7 +14365,7 @@ MonoBehaviour:
   m_FontData:
     m_Font: {fileID: 12800000, guid: 7e5568f3f8ff9dd4cb8b4e8676b5308f, type: 3}
     m_FontSize: 14
-    m_FontStyle: 0
+    m_FontStyle: 1
     m_BestFit: 1
     m_MinSize: 10
     m_MaxSize: 72

@@ -23,9 +23,9 @@ public class Zoom : MonoBehaviour
 
             float difference = currentMagnitude - prevMagnitude;
 
-            zoom(difference * 0.01f);
+            zoom(- difference * 0.01f);
         }
-        zoom(Input.GetAxis("Mouse ScrollWheel"));
+        zoom(- Input.GetAxis("Mouse ScrollWheel"));
     }
 
     void zoom(float increment)

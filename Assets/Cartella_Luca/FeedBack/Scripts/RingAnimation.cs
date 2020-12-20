@@ -25,8 +25,7 @@ public class RingAnimation : MonoBehaviour
     void Update()
     {
         LeanTween.moveY(gameObject, direction, time).setEase(type);
-        StartCoroutine(Late());
-                
+        StartCoroutine(Late());                
     }
 
     IEnumerator Late()
