@@ -462,7 +462,7 @@ RectTransform:
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0.99999994, y: 1}
+  m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 20, y: 20}
   m_Pivot: {x: 0.5, y: 0.5}
@@ -2813,7 +2813,7 @@ MonoBehaviour:
   m_HandleRect: {fileID: 79015179}
   m_Direction: 0
   m_Value: 0
-  m_Size: 0.99999994
+  m_Size: 1
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:
@@ -4037,7 +4037,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -57.999817, y: -1563.367}
+  m_AnchoredPosition: {x: -57.999878, y: -1563.3667}
   m_SizeDelta: {x: 965.21326, y: -1608.734}
   m_Pivot: {x: 1, y: 0.5}
 --- !u!114 &2002827934
@@ -4378,9 +4378,9 @@ GameObject:
   - component: {fileID: 7726543558330437011}
   - component: {fileID: 7726543558330437013}
   - component: {fileID: 7726543558330437010}
+  - component: {fileID: 7726543558330437014}
   - component: {fileID: 7726543558330437012}
   - component: {fileID: 7726543558330437009}
-  - component: {fileID: 7726543558330437014}
   m_Layer: 5
   m_Name: Manina
   m_TagString: Untagged
@@ -4453,7 +4453,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 180, y: 0, z: 90}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 243, y: -747}
+  m_AnchoredPosition: {x: 243, y: -999}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!320 &7726543558330437012
@@ -4465,13 +4465,13 @@ PlayableDirector:
   m_GameObject: {fileID: 7726543558330437008}
   m_Enabled: 1
   serializedVersion: 3
-  m_PlayableAsset: {fileID: 11400000, guid: 00028f024c57003439aa4843f28cf59a, type: 2}
+  m_PlayableAsset: {fileID: 11400000, guid: 046bf08e43f70134c93f1a43524f0a9c, type: 2}
   m_InitialState: 1
   m_WrapMode: 1
   m_DirectorUpdateMode: 1
   m_InitialTime: 0
   m_SceneBindings:
-  - key: {fileID: -2985290541094117342, guid: 00028f024c57003439aa4843f28cf59a, type: 2}
+  - key: {fileID: -5963126730948108153, guid: 046bf08e43f70134c93f1a43524f0a9c, type: 2}
     value: {fileID: 7726543558330437009}
   m_ExposedReferences:
     m_References: []
