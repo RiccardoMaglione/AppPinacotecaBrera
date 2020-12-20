@@ -31,6 +31,7 @@ public class RingAnimation : MonoBehaviour
     IEnumerator Late()
     {
         yield return new WaitForSeconds(2f);
+        if(Manina!=null)
         Manina.SetActive(true);
     }
 }

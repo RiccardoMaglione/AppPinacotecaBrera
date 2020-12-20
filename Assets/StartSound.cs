@@ -8,7 +8,6 @@ public class StartSound : MonoBehaviour
     void Start()
     {
       AudioManager.instance.Play("EndMinigame");
+        Debug.Log("HideoKojima");
     }
-
-  
 }
