@@ -226,7 +226,8 @@ public class UIManager : MonoBehaviour
     }
     public void GoToFullscreenKissPanel()
     {
-        if(kissFullscreenPanel != null)
+        PlayerPrefs.SetInt("PuzzleImage", 1);
+        if (kissFullscreenPanel != null)
         {
             kissFullscreenPanel.SetActive(true);
         }

@@ -5,7 +5,6 @@ using UnityEngine;
 public class CompletedPuzzle : MonoBehaviour
 {
     public GameObject[] DeactiveObject;
-    public GameObject PanelBadge;
     void Update()
     {
         if(PlayerPrefs.GetInt("PuzzleCompleted") == 1)
@@ -14,10 +13,6 @@ public class CompletedPuzzle : MonoBehaviour
             {
                 DeactiveObject[i].SetActive(false);
             }
-        }
-        if (PlayerPrefs.GetInt("PuzzleImage") == 1)
-        {
-            PanelBadge.SetActive(false);
         }
     }
 }
