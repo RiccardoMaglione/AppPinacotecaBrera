@@ -24,7 +24,10 @@ public class StartMinigameAnimation : MonoBehaviour
     {
         if(gameObject.transform.localScale.y >= 1f)
         {
-            Touch.SetActive(true);
+            if(Touch!= null)
+            {
+                Touch.SetActive(true);
+            }
         }
     }
 
